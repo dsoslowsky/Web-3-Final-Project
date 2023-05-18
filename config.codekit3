@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
+    "\/deploy\/checkout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -71,11 +79,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/Icons\/cart_icon.svg" : {
+    "\/deploy\/img\/icons\/cart-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/Icons\/cart_icon.svg",
+      "oAP" : "\/deploy\/img\/icons\/cart-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -131,6 +139,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/photos\/hairdryer.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/hairdryer.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/shark-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -160,13 +178,37 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/banner.kit" : {
+    "\/deploy\/thankYou.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/thankYou.html",
+      "oF" : 0
+    },
+    "\/dev\/checkout.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/banner.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/checkout.html",
       "oF" : 0
+    },
+    "\/dev\/content\/product\/general.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/general.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/product\/general.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/product\/general.html",
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -369,6 +411,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/product\/general.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/product\/general.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -383,6 +440,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/thankYou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/thankYou.html",
+      "oF" : 0
     }
   },
   "hooks" : [
