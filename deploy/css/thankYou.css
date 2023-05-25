@@ -330,13 +330,12 @@ template {
 /* =============
     Base
 ============= */
-body {
-  background-color: lightblue;
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-/* =============
-    Var Colors
-============= */
 /* =============
     Typography
 ============= */
@@ -378,17 +377,19 @@ footer {
   background-color: red;
 }
 
-#thankYou {
+#thankYou div {
   display: grid;
   grid-template-columns: 50% auto;
   grid-template-areas: "TYtitle TYtitle" "TYmessage TYimages";
+  background-color: var(--dark-red);
+  color: var(--off-white);
 }
-#thankYou .TYtitle {
+#thankYou div .TYtitle {
   grid-area: TYtitle;
 }
-#thankYou .TYmessage {
+#thankYou div .TYmessage {
   grid-area: TYmessage;
 }
-#thankYou .TYimages {
+#thankYou div .TYimages {
   grid-area: TYtitle;
 }
