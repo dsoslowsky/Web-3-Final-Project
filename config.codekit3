@@ -9,12 +9,36 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/deploy\/checkout.html" : {
+    "\/deploy\/checkout1.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/checkout.html",
+      "oAP" : "\/deploy\/checkout1.html",
+      "oF" : 0
+    },
+    "\/deploy\/checkout2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout2.html",
+      "oF" : 0
+    },
+    "\/deploy\/checkout3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout3.html",
+      "oF" : 0
+    },
+    "\/deploy\/checkout4.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout4.html",
       "oF" : 0
     },
     "\/deploy\/css\/styles.css" : {
@@ -64,6 +88,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/icons\/big-icons\/big-icon4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/icons\/big-stars.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icons\/big-stars.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -256,13 +290,69 @@
       "oAP" : "\/deploy\/thankYou.html",
       "oF" : 0
     },
-    "\/dev\/checkout.kit" : {
+    "\/dev\/checkout1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/checkout.html",
+      "oAP" : "\/deploy\/checkout1.html",
       "oF" : 2
+    },
+    "\/dev\/checkout2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout2.html",
+      "oF" : 3
+    },
+    "\/dev\/checkout3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/checkout3.html",
+      "oF" : 2
+    },
+    "\/dev\/checkout4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/checkout4.kit",
+      "oF" : 2
+    },
+    "\/dev\/content\/checkout1\/checkout1.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout1\/checkout1.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/checkout2\/checkout2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout2\/checkout2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout3\/checkout3.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout3\/checkout3.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/checkout4\/checkout4.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/checkout4\/checkout4.html",
+      "oF" : 1
     },
     "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
@@ -295,6 +385,22 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/product\/info.kit",
       "oF" : 3
+    },
+    "\/dev\/content\/product\/reviews.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/reviews.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/thankYou\/thankYou.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/thankYou\/thankYou.html",
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,

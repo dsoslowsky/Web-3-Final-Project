@@ -327,6 +327,13 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: lightblue;
+}
+
+/* =============
+    Var Colors
+============= */
 /* =============
     Typography
 ============= */
@@ -364,3 +371,6 @@ header {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: red;
+}
