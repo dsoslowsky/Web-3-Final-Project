@@ -29,41 +29,41 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/icons\/big-icons\/dry-icon.svg" : {
+    "\/deploy\/img\/icons\/big-icons\/big-icon1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/big-icons\/dry-icon.svg",
+      "oAP" : "\/deploy\/img\/icons\/big-icons\/big-icon1.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/big-icons\/hair-icon.svg" : {
+    "\/deploy\/img\/icons\/big-icons\/big-icon2.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/big-icons\/hair-icon.svg",
+      "oAP" : "\/deploy\/img\/icons\/big-icons\/big-icon2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/big-icons\/heat-icon.svg" : {
+    "\/deploy\/img\/icons\/big-icons\/big-icon3.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/big-icons\/heat-icon.svg",
+      "oAP" : "\/deploy\/img\/icons\/big-icons\/big-icon3.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/icons\/big-icons\/settings-icon.svg" : {
+    "\/deploy\/img\/icons\/big-icons\/big-icon4.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/big-icons\/settings-icon.svg",
+      "oAP" : "\/deploy\/img\/icons\/big-icons\/big-icon4.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -199,6 +199,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/photos\/celebrityphoto.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/celebrityphoto.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/photos\/hairdryer.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -261,6 +271,14 @@
       "oA" : 1,
       "oAP" : "\/dev\/content\/product\/attachments.html",
       "oF" : 1
+    },
+    "\/dev\/content\/product\/features.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/features.html",
+      "oF" : 0
     },
     "\/dev\/content\/product\/general.kit" : {
       "cB" : 0,
