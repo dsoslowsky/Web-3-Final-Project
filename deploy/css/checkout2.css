@@ -11,8 +11,11 @@ html {
     Variables
 ============= */
 :root {
-  --black: #000000;
-  --white: #ffffff;
+  --basic-red: #672B2D;
+  --off-white: #F5F5F5;
+  --dark-red: #2E1115;
+  --purple: #83687B;
+  --mid-gray: #ADADAD;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
