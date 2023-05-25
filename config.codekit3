@@ -89,6 +89,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/icons\/checked.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icons\/checked.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/icons\/facebook-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -129,11 +139,61 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/icons\/unchecked.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/icons\/unchecked.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/icons\/x-icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/icons\/x-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/photos\/attachment1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/attachment1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/photos\/attachment2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/attachment2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/photos\/attachment3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/attachment3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/photos\/attachment4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/attachment4.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -191,24 +251,32 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/checkout.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/checkout.html",
+      "oF" : 2
     },
-    "\/dev\/content\/product\/general.html" : {
+    "\/dev\/content\/product\/attachments.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/product\/general.html",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/attachments.html",
+      "oF" : 1
     },
     "\/dev\/content\/product\/general.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/product\/general.html",
-      "oF" : 1
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/general.kit",
+      "oF" : 3
+    },
+    "\/dev\/content\/product\/info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/product\/info.kit",
+      "oF" : 3
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -232,7 +300,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
@@ -411,6 +479,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/product\/attachments.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/sections\/product\/attachments.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/product\/general.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -446,8 +529,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/thankYou.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/thankYou.html",
+      "oF" : 2
     }
   },
   "hooks" : [
