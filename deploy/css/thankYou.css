@@ -377,3 +377,18 @@ header {
 footer {
   background-color: red;
 }
+
+#thankYou {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "TYtitle TYtitle" "TYmessage TYimages";
+}
+#thankYou .TYtitle {
+  grid-area: TYtitle;
+}
+#thankYou .TYmessage {
+  grid-area: TYmessage;
+}
+#thankYou .TYimages {
+  grid-area: TYtitle;
+}

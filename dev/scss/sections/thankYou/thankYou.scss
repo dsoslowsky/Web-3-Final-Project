@@ -2,5 +2,26 @@
 
 
 #thankYou{
-    
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: 
+    "TYtitle TYtitle"
+    "TYmessage TYimages";
+
+    div{
+
+    }
+
+
+    .TYtitle{
+        grid-area: TYtitle;
+    }
+
+    .TYmessage{
+        grid-area: TYmessage;
+    }
+
+    .TYimages{
+        grid-area: TYtitle;
+    }
 }
