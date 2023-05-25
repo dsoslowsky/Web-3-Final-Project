@@ -379,7 +379,7 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/checkout4.kit",
+      "oAP" : "\/deploy\/checkout4.html",
       "oF" : 2
     },
     "\/dev\/content\/checkout1\/checkout1.kit" : {
