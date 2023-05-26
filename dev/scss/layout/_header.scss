@@ -2,6 +2,23 @@
     Header
 ============= */
 
-header{
-    background-color: red;
+#header{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". header .";
+
+        background-color: var(--basic-red);
+        color: var(--off-white);
+    
+        >div{
+            grid-area: header;
+
+            display: flex;
+          
+    
+
+    
+        }
+    
+
 }

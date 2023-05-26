@@ -363,20 +363,52 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav ul li {
+  color: var(--off-white);
+}
+
 /* =============
     Header
 ============= */
-header {
-  background-color: red;
+#header {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+  background-color: var(--basic-red);
+  color: var(--off-white);
+}
+#header > div {
+  grid-area: header;
+  display: flex;
 }
 
 /* =============
     Footer
 ============= */
 footer {
-  background-color: red;
+  display: grid;
+  grid-template-columns: 70px auto 70px;
+  grid-template-areas: ". footer .";
+  background-color: var(--basic-red);
+  color: var(--off-white);
+}
+footer > div {
+  grid-area: footer;
+  display: flex;
+}
+footer > div section {
+  padding: 32px;
 }
 
 #checkout1 {
-  background-color: purple;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout1 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout1 > div {
+  grid-area: checkout1;
+  display: grid;
+  grid-template-columns: 50% auto;
 }

@@ -3,5 +3,22 @@
 ============= */
 
 footer{
-    background-color: red;
+    display: grid;
+    grid-template-columns: 70px auto 70px;
+    grid-template-areas: ". footer .";
+
+    background-color: var(--basic-red);
+    color: var(--off-white);
+
+    >div{
+        grid-area: footer;
+
+        display: flex;
+
+        section{
+            padding: 32px;
+        }
+
+    }
+
 }
