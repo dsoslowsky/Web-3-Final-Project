@@ -1,0 +1,47 @@
+#features{
+    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". features .";
+
+    background-color: var(--basic-red);
+    color: var(--off-white);
+
+    @include lg{
+        grid-template-columns: 60px auto 60px;
+    }
+
+    >div{
+        grid-area: features;
+        padding: 80px 0px;
+
+            ul{
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-areas: "f1 f2 f3 f4";
+
+                li{
+                    text-align: center;
+                }
+        
+                .f1{
+                    grid-area: f1;
+                }
+        
+                .f2{
+                    grid-area: f2;
+                }
+        
+                .f3{
+                    grid-area: f3;
+                }
+        
+                .f4{
+                    grid-area: f4;
+                }
+
+             }
+        
+
+    }
+}

@@ -1,4 +1,17 @@
 #info{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". info .";
 
+        background-color: var(--off-white);
+        color: var(--dark-red);
+    
+        >div{
+            grid-area: info;
+    
+           display: grid;
+           grid-template-columns: 30% auto; 
+    
+        }
     
 }

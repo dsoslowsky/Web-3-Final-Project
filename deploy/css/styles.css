@@ -330,10 +330,6 @@ template {
 /* =============
     Base
 ============= */
-body {
-  background-color: var(--dark-red);
-  color: var(--off-white);
-}
 body ul {
   list-style: none;
   margin: 0;
@@ -385,6 +381,8 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". general .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
 }
 #general > div {
   grid-area: general;
@@ -396,6 +394,8 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". attachments .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
 }
 @media (min-width: 1024px) {
   #attachments {
@@ -421,4 +421,54 @@ footer {
 }
 #attachments > div > section ul .a4 {
   grid-area: a4;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". info .";
+  background-color: var(--off-white);
+  color: var(--dark-red);
+}
+#info > div {
+  grid-area: info;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". features .";
+  background-color: var(--basic-red);
+  color: var(--off-white);
+}
+@media (min-width: 1024px) {
+  #features {
+    grid-template-columns: 60px auto 60px;
+  }
+}
+#features > div {
+  grid-area: features;
+  padding: 80px 0px;
+}
+#features > div ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: "f1 f2 f3 f4";
+}
+#features > div ul li {
+  text-align: center;
+}
+#features > div ul .f1 {
+  grid-area: f1;
+}
+#features > div ul .f2 {
+  grid-area: f2;
+}
+#features > div ul .f3 {
+  grid-area: f3;
+}
+#features > div ul .f4 {
+  grid-area: f4;
 }
