@@ -1,0 +1,35 @@
+#reviews{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". reviews .";
+
+    @include lg{
+        grid-template-columns: 170px auto 170px;
+    }
+
+    background-color: var(--dark-red);
+    color: var(--off-white);
+
+    >div{
+        grid-area: reviews;
+
+       >aside{
+            display: grid;
+            grid-template-columns: 50% auto;
+       }
+
+        >section{
+            ul{
+
+                li{
+                    background-color: var(--off-white);
+                    color: var(--dark-red);
+                    
+                    
+
+                }
+            }
+        }
+    }
+
+}

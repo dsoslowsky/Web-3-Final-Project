@@ -472,3 +472,27 @@ footer {
 #features > div ul .f4 {
   grid-area: f4;
 }
+
+#reviews {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". reviews .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+@media (min-width: 1024px) {
+  #reviews {
+    grid-template-columns: 170px auto 170px;
+  }
+}
+#reviews > div {
+  grid-area: reviews;
+}
+#reviews > div > aside {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#reviews > div > section ul li {
+  background-color: var(--off-white);
+  color: var(--dark-red);
+}
