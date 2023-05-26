@@ -330,6 +330,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
 body ul {
   list-style: none;
   margin: 0;
@@ -378,5 +382,43 @@ footer {
 }
 
 #general {
-  background-color: blue;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". general .";
+}
+#general > div {
+  grid-area: general;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+#attachments {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". attachments .";
+}
+@media (min-width: 1024px) {
+  #attachments {
+    grid-template-columns: 60px auto 60px;
+  }
+}
+#attachments > div {
+  grid-area: attachments;
+}
+#attachments > div > section ul {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-areas: "a1 a2 a3 a4";
+}
+#attachments > div > section ul .a1 {
+  grid-area: a1;
+}
+#attachments > div > section ul .a2 {
+  grid-area: a2;
+}
+#attachments > div > section ul .a3 {
+  grid-area: a3;
+}
+#attachments > div > section ul .a4 {
+  grid-area: a4;
 }

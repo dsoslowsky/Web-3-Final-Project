@@ -1,0 +1,30 @@
+// thankYou//
+
+
+#thankYou{
+
+    padding: 0px 16px;
+
+    // display: grid;
+    // grid-template-columns: 16px auto 16px;
+    // grid-template-areas: ". thankYou .";
+
+    // background-color: var(--dark-red);
+    // color: var(--off-white);
+    
+
+    >div{
+
+        // grid-area: thankYou;
+
+        display: flex;
+
+        section{
+            margin-left: auto;
+        }
+
+
+
+    }
+
+}

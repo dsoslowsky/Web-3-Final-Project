@@ -1,0 +1,40 @@
+#attachments{
+    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". attachments .";
+
+    @include lg{
+        grid-template-columns: 60px auto 60px;
+    }
+
+    >div{
+        grid-area: attachments;
+
+        >section{
+            ul{
+                display: grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                grid-template-areas: "a1 a2 a3 a4";
+        
+                .a1{
+                    grid-area: a1;
+                }
+        
+                .a2{
+                    grid-area: a2;
+                }
+        
+                .a3{
+                    grid-area: a3;
+                }
+        
+                .a4{
+                    grid-area: a4;
+                }
+
+             }
+        }
+
+    }
+}

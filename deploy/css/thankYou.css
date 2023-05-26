@@ -330,6 +330,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
 body ul {
   list-style: none;
   margin: 0;
@@ -377,19 +381,12 @@ footer {
   background-color: red;
 }
 
-#thankYou div {
-  display: grid;
-  grid-template-columns: 50% auto;
-  grid-template-areas: "TYtitle TYtitle" "TYmessage TYimages";
-  background-color: var(--dark-red);
-  color: var(--off-white);
+#thankYou {
+  padding: 0px 16px;
 }
-#thankYou div .TYtitle {
-  grid-area: TYtitle;
+#thankYou > div {
+  display: flex;
 }
-#thankYou div .TYmessage {
-  grid-area: TYmessage;
-}
-#thankYou div .TYimages {
-  grid-area: TYtitle;
+#thankYou > div section {
+  margin-left: auto;
 }

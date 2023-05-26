@@ -733,7 +733,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout1\/checkout1.scss" : {
+    "\/dev\/scss\/sections\/checkout1\/_checkout1.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -742,13 +742,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout1\/checkout1.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout1\/_checkout1.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout2\/checkout2.scss" : {
+    "\/dev\/scss\/sections\/checkout2\/_checkout2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -757,13 +757,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout2\/checkout2.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout2\/_checkout2.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout3\/checkout3.scss" : {
+    "\/dev\/scss\/sections\/checkout3\/_checkout3.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -772,13 +772,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout3\/checkout3.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout3\/_checkout3.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/checkout4\/checkout4.scss" : {
+    "\/dev\/scss\/sections\/checkout4\/_checkout4.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -787,13 +787,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/checkout4\/checkout4.css",
+      "oAP" : "\/dev\/scss\/sections\/checkout4\/_checkout4.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/product\/attachments.scss" : {
+    "\/dev\/scss\/sections\/product\/_attachments.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -802,13 +802,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/attachments.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_attachments.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/product\/features.scss" : {
+    "\/dev\/scss\/sections\/product\/_features.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -817,13 +817,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/features.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_features.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/product\/general.scss" : {
+    "\/dev\/scss\/sections\/product\/_general.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -832,13 +832,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/general.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_general.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/product\/info.scss" : {
+    "\/dev\/scss\/sections\/product\/_info.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -847,13 +847,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/info.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/product\/reviews.scss" : {
+    "\/dev\/scss\/sections\/product\/_reviews.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -862,13 +862,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/product\/reviews.css",
+      "oAP" : "\/dev\/scss\/sections\/product\/_reviews.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/thankYou\/thankYou.scss" : {
+    "\/dev\/scss\/sections\/thankYou\/_thankYou.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -877,7 +877,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/thankYou\/thankYou.css",
+      "oAP" : "\/dev\/scss\/sections\/thankYou\/_thankYou.css",
       "oF" : 1,
       "oS" : 0,
       "pg" : 0,
