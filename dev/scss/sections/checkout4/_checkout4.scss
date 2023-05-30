@@ -9,8 +9,20 @@
     >div{
         grid-area: checkout4;
 
-       display: grid;
-       grid-template-columns: 50% auto; 
+        >aside{
+            display: grid;
+            text-align: center;
+        }
 
+       >section{
+        display: grid;
+        grid-template-columns: 50% auto;
+
+        #content4{
+            background-color: var(--basic-red);
+            padding: 40px;
+        }
+       }
+ 
     }
 }

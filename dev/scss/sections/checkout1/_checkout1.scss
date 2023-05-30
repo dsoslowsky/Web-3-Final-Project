@@ -9,8 +9,48 @@
     >div{
         grid-area: checkout1;
 
-       display: grid;
-       grid-template-columns: 50% auto; 
+        >aside{
+            display: grid;
+            text-align: center;
+        }
 
+       >section{
+        display: grid;
+        grid-template-columns: 50% auto;
+
+        #content1{
+            background-color: var(--basic-red);
+            padding: 40px;
+
+            ul{
+                li{
+                    aside{
+                        display: flex;
+                    }
+                }
+            }
+        }
+
+        #images1{
+           display: grid;
+           grid-template-columns: 50%;
+
+
+           grid-template-areas: 
+           "i1b i1a"
+            "i1c i1a";
+
+            #i1a{
+                grid-area: i1a;
+            }
+            #i1b{
+                grid-area: i1b;
+            }
+            #i1c{
+                grid-area: i1c;
+            }
+        }
+       }
+ 
     }
 }

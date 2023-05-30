@@ -529,8 +529,35 @@ footer > div section {
 }
 #checkout1 > div {
   grid-area: checkout1;
+}
+#checkout1 > div > aside {
+  display: grid;
+  text-align: center;
+}
+#checkout1 > div > section {
   display: grid;
   grid-template-columns: 50% auto;
+}
+#checkout1 > div > section #content1 {
+  background-color: var(--basic-red);
+  padding: 40px;
+}
+#checkout1 > div > section #content1 ul li aside {
+  display: flex;
+}
+#checkout1 > div > section #images1 {
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-areas: "i1b i1a" "i1c i1a";
+}
+#checkout1 > div > section #images1 #i1a {
+  grid-area: i1a;
+}
+#checkout1 > div > section #images1 #i1b {
+  grid-area: i1b;
+}
+#checkout1 > div > section #images1 #i1c {
+  grid-area: i1c;
 }
 
 #checkout2 {
@@ -542,8 +569,18 @@ footer > div section {
 }
 #checkout2 > div {
   grid-area: checkout2;
+}
+#checkout2 > div > aside {
+  display: grid;
+  text-align: center;
+}
+#checkout2 > div > section {
   display: grid;
   grid-template-columns: 50% auto;
+}
+#checkout2 > div > section #content2 {
+  background-color: var(--basic-red);
+  padding: 40px;
 }
 
 #checkout3 {
@@ -555,8 +592,18 @@ footer > div section {
 }
 #checkout3 > div {
   grid-area: checkout3;
+}
+#checkout3 > div > aside {
+  display: grid;
+  text-align: center;
+}
+#checkout3 > div > section {
   display: grid;
   grid-template-columns: 50% auto;
+}
+#checkout3 > div > section #content3 {
+  background-color: var(--basic-red);
+  padding: 40px;
 }
 
 #checkout4 {
@@ -568,12 +615,21 @@ footer > div section {
 }
 #checkout4 > div {
   grid-area: checkout4;
+}
+#checkout4 > div > aside {
+  display: grid;
+  text-align: center;
+}
+#checkout4 > div > section {
   display: grid;
   grid-template-columns: 50% auto;
 }
+#checkout4 > div > section #content4 {
+  background-color: var(--basic-red);
+  padding: 40px;
+}
 
 #thankYou {
-  padding: 0px 16px;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". thankYou .";
@@ -582,8 +638,16 @@ footer > div section {
 }
 #thankYou > div {
   grid-area: thankYou;
-  display: flex;
 }
-#thankYou > div section {
-  margin-left: auto;
+#thankYou > div > aside {
+  display: grid;
+  text-align: center;
+}
+#thankYou > div > section {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#thankYou > div > section #contentTY {
+  background-color: var(--basic-red);
+  padding: 40px;
 }

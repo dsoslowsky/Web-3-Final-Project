@@ -2,29 +2,30 @@
 
 
 #thankYou{
-
-    padding: 0px 16px;
-
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". thankYou .";
 
     background-color: var(--dark-red);
     color: var(--off-white);
-    
 
     >div{
-
         grid-area: thankYou;
 
-        display: flex;
-
-        section{
-            margin-left: auto;
+        >aside{
+            display: grid;
+            text-align: center;
         }
 
+       >section{
+        display: grid;
+        grid-template-columns: 50% auto;
 
-
+        #contentTY{
+            background-color: var(--basic-red);
+            padding: 40px;
+        }
+       }
+ 
     }
-
 }
