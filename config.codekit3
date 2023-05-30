@@ -41,54 +41,6 @@
       "oAP" : "\/deploy\/checkout4.html",
       "oF" : 0
     },
-    "\/deploy\/css\/checkout1.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/checkout1-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/deploy\/css\/checkout2.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/checkout2-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/deploy\/css\/checkout3.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/checkout3-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/deploy\/css\/checkout4.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/checkout4-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -98,18 +50,6 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/deploy\/css\/thankYou.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/thankYou-min.css",
       "oF" : 0,
       "pg" : 0
     },
