@@ -519,3 +519,55 @@ footer > div section {
   background-color: var(--off-white);
   color: var(--dark-red);
 }
+
+#checkout1 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout1 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout1 > div {
+  grid-area: checkout1;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+#checkout2 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout2 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout2 > div {
+  grid-area: checkout2;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+#checkout3 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout3 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout3 > div {
+  grid-area: checkout3;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+
+#checkout4 {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout4 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout4 > div {
+  grid-area: checkout4;
+  display: grid;
+  grid-template-columns: 50% auto;
+}

@@ -402,8 +402,14 @@ footer > div section {
 
 #thankYou {
   padding: 0px 16px;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". thankYou .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
 }
 #thankYou > div {
+  grid-area: thankYou;
   display: flex;
 }
 #thankYou > div section {

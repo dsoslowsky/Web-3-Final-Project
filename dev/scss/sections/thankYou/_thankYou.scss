@@ -5,17 +5,17 @@
 
     padding: 0px 16px;
 
-    // display: grid;
-    // grid-template-columns: 16px auto 16px;
-    // grid-template-areas: ". thankYou .";
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". thankYou .";
 
-    // background-color: var(--dark-red);
-    // color: var(--off-white);
+    background-color: var(--dark-red);
+    color: var(--off-white);
     
 
     >div{
 
-        // grid-area: thankYou;
+        grid-area: thankYou;
 
         display: flex;
 
