@@ -401,5 +401,14 @@ footer > div section {
 }
 
 #checkout2 {
-  background-color: purple;
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". checkout2 .";
+  background-color: var(--dark-red);
+  color: var(--off-white);
+}
+#checkout2 > div {
+  grid-area: checkout2;
+  display: grid;
+  grid-template-columns: 50% auto;
 }
