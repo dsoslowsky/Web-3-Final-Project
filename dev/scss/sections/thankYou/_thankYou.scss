@@ -25,6 +25,25 @@
             background-color: var(--basic-red);
             padding: 40px;
         }
+        #imagesTY{
+            display: grid;
+            grid-template-columns: 50%;
+ 
+ 
+            grid-template-areas: 
+            "iTYb iTYa"
+             "iTYc iTYa";
+ 
+             #iTYa{
+                 grid-area: iTYa;
+             }
+             #i1b{
+                 grid-area: iTYb;
+             }
+             #iTYc{
+                 grid-area: iTYc;
+             }
+            }
        }
  
     }

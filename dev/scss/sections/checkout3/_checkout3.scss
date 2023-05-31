@@ -22,6 +22,26 @@
             background-color: var(--basic-red);
             padding: 40px;
         }
+
+        #images3{
+            display: grid;
+            grid-template-columns: 50%;
+ 
+ 
+            grid-template-areas: 
+            "i3b i3a"
+             "i3c i3a";
+ 
+             #i3a{
+                 grid-area: i3a;
+             }
+             #i3b{
+                 grid-area: i3b;
+             }
+             #i3c{
+                 grid-area: i3c;
+             }
+            }
        }
  
     }

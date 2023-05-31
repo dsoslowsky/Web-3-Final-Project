@@ -22,6 +22,32 @@
             background-color: var(--basic-red);
             padding: 40px;
         }
+
+        #images4{
+            display: grid;
+            grid-template-columns: 50%;
+ 
+ 
+            grid-template-areas: 
+            "i4b i4a"
+             "i4c i4a";
+ 
+             #i4a{
+                 grid-area: i4a;
+             }
+             #i4b{
+                 grid-area: i4b;
+             }
+             #i4c{
+                 grid-area: i4c;
+             }
+            }
+
+            section{
+                aside{
+                    text-align: center;
+                }
+            }
        }
  
     }

@@ -22,7 +22,26 @@
             background-color: var(--basic-red);
             padding: 40px;
         }
-       }
-       
+
+        #images2{
+            display: grid;
+            grid-template-columns: 50%;
+ 
+ 
+            grid-template-areas: 
+            "i2b i2a"
+             "i2c i2a";
+ 
+             #i2a{
+                 grid-area: i2a;
+             }
+             #i2b{
+                 grid-area: i2b;
+             }
+             #i2c{
+                 grid-area: i2c;
+             }
+            }
+        }
     }
 }
