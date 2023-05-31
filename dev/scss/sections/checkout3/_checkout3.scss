@@ -14,35 +14,53 @@
             text-align: center;
         }
 
-       >section{
-        display: grid;
-        grid-template-columns: 50% auto;
+        >section{
+            #content3{
+                background-color: var(--basic-red);
+                padding: 40px;
+    
+                ul{
+                    li{
+                        aside{
+                            display: flex;
+                            h2{
+                                padding: 16px;
+                            }
+                        }
 
-        #content3{
-            background-color: var(--basic-red);
-            padding: 40px;
+                        section{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+
+            #images3{
+                padding: 24px;
+                img{
+                width: 100%;
+                }
+            }
         }
 
-        #images3{
-            display: grid;
-            grid-template-columns: 50%;
- 
- 
-            grid-template-areas: 
-            "i3b i3a"
-             "i3c i3a";
- 
-             #i3a{
-                 grid-area: i3a;
-             }
-             #i3b{
-                 grid-area: i3b;
-             }
-             #i3c{
-                 grid-area: i3c;
-             }
+
+        @include lg{
+            >section{
+                display: grid;
+                grid-template-columns: 50% auto;
+
+                #images3{
+                    padding: 96px;
+                    img{
+                        width: 100%;
+                    }
+                }
             }
-       }
- 
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1220px auto;
+        }
     }
 }

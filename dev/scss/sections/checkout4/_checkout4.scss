@@ -14,41 +14,56 @@
             text-align: center;
         }
 
-       >section{
-        display: grid;
-        grid-template-columns: 50% auto;
+        >section{
+            #content4{
+                background-color: var(--basic-red);
+                padding: 40px;
+    
+                ul{
+                    li{
+                        aside{
+                            display: flex;
+                            h2{
+                                padding: 16px;
+                            }
+                        }
 
-        #content4{
-            background-color: var(--basic-red);
-            padding: 40px;
-        }
-
-        #images4{
-            display: grid;
-            grid-template-columns: 50%;
- 
- 
-            grid-template-areas: 
-            "i4b i4a"
-             "i4c i4a";
- 
-             #i4a{
-                 grid-area: i4a;
-             }
-             #i4b{
-                 grid-area: i4b;
-             }
-             #i4c{
-                 grid-area: i4c;
-             }
+                        section{
+                            display: flex;
+                        }
+                    }
+                }
             }
 
-            section{
+            #images4{
+                padding: 24px;
+                img{
+                width: 100%;
+                }
                 aside{
                     text-align: center;
                 }
             }
-       }
- 
+        }
+
+
+        @include lg{
+            >section{
+                display: grid;
+                grid-template-columns: 50% auto;
+
+                #images4{
+                    padding: 96px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1220px auto;
+        }
     }
 }

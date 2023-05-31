@@ -53,18 +53,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/css\/thankYou.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/thankYou-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/deploy\/img\/icons\/big-icons\/big-icon1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -270,6 +258,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/photos\/celebrityphoto.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/photos\/checkout-image.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/photos\/checkout-image.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
