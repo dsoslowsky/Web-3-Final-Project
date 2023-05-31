@@ -1,6 +1,3 @@
-// thankYou//
-
-
 #thankYou{
     display: grid;
     grid-template-columns: 16px auto 16px;
@@ -17,34 +14,56 @@
             text-align: center;
         }
 
-       >section{
-        display: grid;
-        grid-template-columns: 50% auto;
+        >section{
+            #contentTY{
+                background-color: var(--basic-red);
+                padding: 40px;
+    
+                ul{
+                    li{
+                        aside{
+                            display: flex;
+                            h2{
+                                padding: 16px;
+                            }
+                        }
 
-        #contentTY{
-            background-color: var(--basic-red);
-            padding: 40px;
-        }
-        #imagesTY{
-            display: grid;
-            grid-template-columns: 50%;
- 
- 
-            grid-template-areas: 
-            "iTYb iTYa"
-             "iTYc iTYa";
- 
-             #iTYa{
-                 grid-area: iTYa;
-             }
-             #i1b{
-                 grid-area: iTYb;
-             }
-             #iTYc{
-                 grid-area: iTYc;
-             }
+                        section{
+                            display: flex;
+                        }
+                    }
+                }
             }
-       }
- 
+
+            #imagesTY{
+                padding: 24px;
+                img{
+                width: 100%;
+                }
+                aside{
+                    text-align: center;
+                }
+            }
+        }
+
+
+        @include lg{
+            >section{
+                display: grid;
+                grid-template-columns: 50% auto;
+
+                #imagesTY{
+                    padding: 96px;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        @include xl{
+            display: grid;
+            grid-template-columns: auto 1220px auto;
+        }
     }
 }

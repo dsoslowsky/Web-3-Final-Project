@@ -745,25 +745,43 @@ footer > div section {
   display: grid;
   text-align: center;
 }
-#thankYou > div > section {
-  display: grid;
-  grid-template-columns: 50% auto;
-}
 #thankYou > div > section #contentTY {
   background-color: var(--basic-red);
   padding: 40px;
 }
+#thankYou > div > section #contentTY ul li aside {
+  display: flex;
+}
+#thankYou > div > section #contentTY ul li aside h2 {
+  padding: 16px;
+}
+#thankYou > div > section #contentTY ul li section {
+  display: flex;
+}
 #thankYou > div > section #imagesTY {
-  display: grid;
-  grid-template-columns: 50%;
-  grid-template-areas: "iTYb iTYa" "iTYc iTYa";
+  padding: 24px;
 }
-#thankYou > div > section #imagesTY #iTYa {
-  grid-area: iTYa;
+#thankYou > div > section #imagesTY img {
+  width: 100%;
 }
-#thankYou > div > section #imagesTY #i1b {
-  grid-area: iTYb;
+#thankYou > div > section #imagesTY aside {
+  text-align: center;
 }
-#thankYou > div > section #imagesTY #iTYc {
-  grid-area: iTYc;
+@media (min-width: 1024px) {
+  #thankYou > div > section {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+  #thankYou > div > section #imagesTY {
+    padding: 96px;
+  }
+  #thankYou > div > section #imagesTY img {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #thankYou > div {
+    display: grid;
+    grid-template-columns: auto 1220px auto;
+  }
 }
