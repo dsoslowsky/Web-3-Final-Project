@@ -406,10 +406,6 @@ footer > div {
   grid-area: footer;
   display: flex;
 }
-footer > div section {
-  padding: 32px;
-}
-
 #general {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -591,26 +587,50 @@ footer > div section {
 
 #reviews {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 32px auto 32px;
   grid-template-areas: ". reviews .";
   background-color: var(--dark-red);
   color: var(--off-white);
 }
-@media (min-width: 1024px) {
-  #reviews {
-    grid-template-columns: 170px auto 170px;
-  }
-}
 #reviews > div {
   grid-area: reviews;
 }
-#reviews > div > aside {
-  display: grid;
-  grid-template-columns: 50% auto;
+#reviews > div aside form {
+  display: flex;
+  padding-bottom: 24px;
+}
+#reviews > div aside form button {
+  background-color: transparent;
+  border: none;
+}
+#reviews > div aside div {
+  display: flex;
+}
+#reviews > div aside div img {
+  width: 100%;
+}
+#reviews > div aside div h1 {
+  padding-right: 0px;
 }
 #reviews > div > section ul li {
   background-color: var(--off-white);
-  color: var(--dark-red);
+  color: var(--basic-red);
+  margin-bottom: 24px;
+  padding: 32px 24px;
+  border-radius: 40px;
+}
+#reviews > div > section ul li button {
+  background-color: var(--off-white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  #reviews > div > aside {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
 }
 
 #checkout1 {

@@ -1,11 +1,7 @@
 #reviews{
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 32px auto 32px;
     grid-template-areas: ". reviews .";
-
-    @include lg{
-        grid-template-columns: 170px auto 170px;
-    }
 
     background-color: var(--dark-red);
     color: var(--off-white);
@@ -13,22 +9,55 @@
     >div{
         grid-area: reviews;
 
-       >aside{
-            display: grid;
-            grid-template-columns: 50% auto;
-       }
+        aside{
+            form{
+                display: flex;
+                padding-bottom: 24px;
+                button{
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+            div{
+                display: flex;
+                img{
+                    width: 100%;
+                }
+                h1{
+                    padding-right: 0px;
+                }
+            }
+        }
 
         >section{
             ul{
-
                 li{
                     background-color: var(--off-white);
-                    color: var(--dark-red);
-                    
-                    
+                    color: var(--basic-red);
 
+                    margin-bottom: 24px;
+                    padding: 32px 24px;
+                    border-radius: 40px;
+                    
+                    button{
+                        background-color: var(--off-white);
+                        color: var(--purple);
+                        border: 2px solid var(--purple);
+                        padding: 8px 16px;
+                        border-radius: 8px;
+                    }
                 }
             }
+        } 
+    }
+
+    @include md{
+        >div{
+            >aside{
+                display: grid;
+                grid-template-columns: 50% auto;
+ 
+           }
         }
     }
 
