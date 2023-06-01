@@ -670,7 +670,10 @@ footer > div section ul li {
   color: var(--off-white);
 }
 #checkout1 > div {
+  max-width: 1400px;
+  margin: 0px auto;
   grid-area: checkout1;
+  margin-bottom: 32px;
 }
 #checkout1 > div > aside {
   display: flex;
@@ -696,6 +699,9 @@ footer > div section ul li {
   width: 100%;
 }
 @media (min-width: 1024px) {
+  #checkout1 > div {
+    grid-template-columns: auto 1200 auto;
+  }
   #checkout1 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
@@ -707,12 +713,6 @@ footer > div section ul li {
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
-  #checkout1 > div {
-    display: grid;
-    grid-template-columns: auto 1220px auto;
-  }
-}
 
 #checkout2 {
   display: grid;
@@ -722,11 +722,14 @@ footer > div section ul li {
   color: var(--off-white);
 }
 #checkout2 > div {
+  max-width: 1400px;
+  margin: 0px auto;
   grid-area: checkout2;
+  margin-bottom: 32px;
 }
 #checkout2 > div > aside {
-  display: grid;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #checkout2 > div > section #content2 {
   background-color: var(--basic-red);
@@ -748,6 +751,9 @@ footer > div section ul li {
   width: 100%;
 }
 @media (min-width: 1024px) {
+  #checkout2 > div {
+    grid-template-columns: auto 1200 auto;
+  }
   #checkout2 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
@@ -759,12 +765,6 @@ footer > div section ul li {
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
-  #checkout2 > div {
-    display: grid;
-    grid-template-columns: auto 1220px auto;
-  }
-}
 
 #checkout3 {
   display: grid;
@@ -774,11 +774,14 @@ footer > div section ul li {
   color: var(--off-white);
 }
 #checkout3 > div {
+  max-width: 1400px;
+  margin: 0px auto;
   grid-area: checkout3;
+  margin-bottom: 32px;
 }
 #checkout3 > div > aside {
-  display: grid;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #checkout3 > div > section #content3 {
   background-color: var(--basic-red);
@@ -800,6 +803,9 @@ footer > div section ul li {
   width: 100%;
 }
 @media (min-width: 1024px) {
+  #checkout3 > div {
+    grid-template-columns: auto 1200 auto;
+  }
   #checkout3 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
@@ -809,12 +815,6 @@ footer > div section ul li {
   }
   #checkout3 > div > section #images3 img {
     width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  #checkout3 > div {
-    display: grid;
-    grid-template-columns: auto 1220px auto;
   }
 }
 
