@@ -1,27 +1,37 @@
 #features{
     
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 32px auto 32px;
     grid-template-areas: ". features .";
 
     background-color: var(--basic-red);
     color: var(--off-white);
 
-    @include lg{
-        grid-template-columns: 60px auto 60px;
-    }
-
     >div{
         grid-area: features;
-        padding: 80px 0px;
+        padding: 30px 0px;
+        text-align: left;
+        ul{
+            li{
+                padding-bottom: 40px;
+                aside{
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 
-            ul{
+    @include md{
+        padding: 0px;
+        ul{
                 display: grid;
                 grid-template-columns: 25% 25% 25% 25%;
                 grid-template-areas: "f1 f2 f3 f4";
 
                 li{
-                    text-align: center;
+                    text-align: left;
+                    padding: 32px;
                 }
         
                 .f1{
@@ -40,8 +50,11 @@
                     grid-area: f4;
                 }
 
-             }
-        
+        }
+    }
 
+
+    @include xl{
+        grid-template-columns: auto 1200px auto;
     }
 }

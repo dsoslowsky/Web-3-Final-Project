@@ -9,14 +9,17 @@
 
     >div{
         grid-area: attachments;
-        section{
+        >section{
             ul{
-                text-align: center;
-
                 li{  
-                    text-align: center; 
+                    section{
+                        display: flex; 
+                        justify-content: center;
+                        padding: 8px;
+                    }
                     aside{
                         display: flex; 
+                        justify-content: center;
                         button{
                             background-color: transparent;
                             padding: 16px;

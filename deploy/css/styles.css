@@ -461,16 +461,16 @@ footer > div section {
 #attachments > div {
   grid-area: attachments;
 }
-#attachments > div section ul {
-  text-align: center;
-}
-#attachments > div section ul li {
-  text-align: center;
-}
-#attachments > div section ul li aside {
+#attachments > div > section ul li section {
   display: flex;
+  justify-content: center;
+  padding: 8px;
 }
-#attachments > div section ul li aside button {
+#attachments > div > section ul li aside {
+  display: flex;
+  justify-content: center;
+}
+#attachments > div > section ul li aside button {
   background-color: transparent;
   padding: 16px;
   margin: 0;
@@ -540,39 +540,53 @@ footer > div section {
 
 #features {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 32px auto 32px;
   grid-template-areas: ". features .";
   background-color: var(--basic-red);
   color: var(--off-white);
 }
-@media (min-width: 1024px) {
-  #features {
-    grid-template-columns: 60px auto 60px;
-  }
-}
 #features > div {
   grid-area: features;
-  padding: 80px 0px;
-}
-#features > div ul {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-areas: "f1 f2 f3 f4";
+  padding: 30px 0px;
+  text-align: left;
 }
 #features > div ul li {
-  text-align: center;
+  padding-bottom: 40px;
 }
-#features > div ul .f1 {
-  grid-area: f1;
+#features > div ul li aside {
+  display: flex;
+  justify-content: center;
 }
-#features > div ul .f2 {
-  grid-area: f2;
+@media (min-width: 768px) {
+  #features {
+    padding: 0px;
+  }
+  #features ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "f1 f2 f3 f4";
+  }
+  #features ul li {
+    text-align: left;
+    padding: 32px;
+  }
+  #features ul .f1 {
+    grid-area: f1;
+  }
+  #features ul .f2 {
+    grid-area: f2;
+  }
+  #features ul .f3 {
+    grid-area: f3;
+  }
+  #features ul .f4 {
+    grid-area: f4;
+  }
 }
-#features > div ul .f3 {
-  grid-area: f3;
-}
-#features > div ul .f4 {
-  grid-area: f4;
+@media (min-width: 1200px) {
+  #features {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 
 #reviews {
@@ -610,8 +624,8 @@ footer > div section {
   grid-area: checkout1;
 }
 #checkout1 > div > aside {
-  display: grid;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 #checkout1 > div > section #content1 {
   background-color: var(--basic-red);

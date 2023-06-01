@@ -10,8 +10,8 @@
         grid-area: checkout1;
 
         >aside{
-            display: grid;
-            text-align: center;
+            display: flex;
+            justify-content: center;
         }
 
         >section{
