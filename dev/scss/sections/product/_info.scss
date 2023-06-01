@@ -1,6 +1,6 @@
 #info{
         display: grid;
-        grid-template-columns: 32px auto 32px;
+        grid-template-columns: 40px auto 40px;
         grid-template-areas: ". info .";
 
         background-color: var(--off-white);
@@ -8,10 +8,37 @@
     
         >div{
             grid-area: info;
+            padding-top: 16px;
+
+            section{
+                img{
+                    width: 100%;
+                    border-bottom: 3px solid var(--mid-grey);
+                    padding-top: 32px;
+                }
+                a{
+                    background-color: var(--purple);
+                    color: var(--off-white);
+                    padding: 8px 16px;
+                    border-radius: 8px;
+                }
+            }
     
-           display: grid;
-           grid-template-columns: 30% auto; 
-    
+        }
+
+
+        @include lg{
+                >div{
+                        display: grid;
+                        grid-template-columns: 30% auto; 
+
+                        h3{
+                                padding-top: 100px;
+                        }
+                }
+        }
+        @include xl{
+                grid-template-columns: auto 1300px auto;
         }
     
 }

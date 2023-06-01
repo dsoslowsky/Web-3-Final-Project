@@ -10,6 +10,17 @@ body{
         padding: 0;
     }
 
+    img{
+        display: block;
+    }
+
 }
 
+.purple-button{
 
+            padding: 8px 16px;
+            border-radius: 8px;
+            background-color: var(--purple);
+            color: var(--off-white);
+
+}

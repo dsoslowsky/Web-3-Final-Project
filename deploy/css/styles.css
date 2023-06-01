@@ -335,6 +335,16 @@ body ul {
   margin: 0;
   padding: 0;
 }
+body img {
+  display: block;
+}
+
+.purple-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: var(--purple);
+  color: var(--off-white);
+}
 
 /* =============
     Typography
@@ -493,15 +503,39 @@ footer > div section {
 
 #info {
   display: grid;
-  grid-template-columns: 32px auto 32px;
+  grid-template-columns: 40px auto 40px;
   grid-template-areas: ". info .";
   background-color: var(--off-white);
   color: var(--dark-red);
 }
 #info > div {
   grid-area: info;
-  display: grid;
-  grid-template-columns: 30% auto;
+  padding-top: 16px;
+}
+#info > div section img {
+  width: 100%;
+  border-bottom: 3px solid var(--mid-grey);
+  padding-top: 32px;
+}
+#info > div section a {
+  background-color: var(--purple);
+  color: var(--off-white);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+@media (min-width: 1024px) {
+  #info > div {
+    display: grid;
+    grid-template-columns: 30% auto;
+  }
+  #info > div h3 {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  #info {
+    grid-template-columns: auto 1300px auto;
+  }
 }
 
 #features {
