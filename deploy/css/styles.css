@@ -354,6 +354,13 @@ body img {
   color: var(--off-white);
 }
 
+#checkout-form input {
+  width: 100%;
+  background-color: var(--off-white);
+  border: 2px solid var(--purple);
+  border-radius: 2px;
+}
+
 /* =============
     Typography
 ============= */
@@ -750,12 +757,6 @@ footer > div section ul li {
 #checkout2 > div > section #content2 ul li section {
   display: flex;
 }
-#checkout2 > div > section #content2 ul li section a {
-  background-color: var(--purple);
-  color: var(--off-white);
-  padding: 8px 16px;
-  border-radius: 8px;
-}
 #checkout2 > div > section #content2 ul li form input {
   width: 100%;
 }
@@ -809,12 +810,6 @@ footer > div section ul li {
 #checkout3 > div > section #content3 ul li section {
   display: flex;
 }
-#checkout3 > div > section #content3 ul li section a {
-  background-color: var(--purple);
-  color: var(--off-white);
-  padding: 8px 16px;
-  border-radius: 8px;
-}
 #checkout3 > div > section #content3 ul li form input {
   width: 100%;
 }
@@ -867,12 +862,6 @@ footer > div section ul li {
 }
 #checkout4 > div > section #content4 ul li section {
   display: flex;
-}
-#checkout4 > div > section #content4 ul li section a {
-  background-color: var(--purple);
-  color: var(--off-white);
-  padding: 8px 16px;
-  border-radius: 8px;
 }
 #checkout4 > div > section #content4 ul li form input {
   width: 100%;
