@@ -27,5 +27,20 @@ footer{
    
     }
 
+    @include md{
+        >div{
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            section{
+                padding: 24px;
+            }
+        }
+    }
+
+    @include xl{
+        grid-template-columns: auto 1300px auto;
+    }
+
 }
 

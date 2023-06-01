@@ -414,6 +414,21 @@ footer > div section ul {
 footer > div section ul li {
   padding: 8px;
 }
+@media (min-width: 768px) {
+  footer > div {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  footer > div section {
+    padding: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  footer {
+    grid-template-columns: auto 1300px auto;
+  }
+}
 
 #general {
   display: grid;
