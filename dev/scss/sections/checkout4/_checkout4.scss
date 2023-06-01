@@ -24,6 +24,11 @@
                 border-radius: 24px;
                 
                 ul{
+                    #same-checkbox{
+                        display: flex;
+                        gap: 8px;
+                    }
+
                     li{
                         aside{
                             display: flex;

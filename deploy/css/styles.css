@@ -358,7 +358,11 @@ body img {
   width: 100%;
   background-color: var(--off-white);
   border: 2px solid var(--purple);
-  border-radius: 2px;
+  border-radius: 8px;
+  color: var(--purple);
+  height: 24px;
+}
+#checkout-form ::placeholder {
   color: var(--purple);
 }
 
@@ -904,6 +908,10 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+}
+#checkout4 > div > section #content4 ul #same-checkbox {
+  display: flex;
+  gap: 8px;
 }
 #checkout4 > div > section #content4 ul li aside {
   display: flex;
