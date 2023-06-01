@@ -9,7 +9,9 @@
     >div{
         grid-area: thankYou;
         max-width: 1400px; 
-        margin: 0px auto;  
+        margin: 0px auto; 
+        
+        margin-bottom: 32px;
 
         >aside{
             display: grid;

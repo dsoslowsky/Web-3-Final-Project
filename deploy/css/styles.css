@@ -908,6 +908,7 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+  margin-bottom: 32px;
 }
 #checkout4 > div > section #content4 ul #same-checkbox {
   display: flex;
@@ -976,6 +977,7 @@ footer > div section ul li {
   grid-area: thankYou;
   max-width: 1400px;
   margin: 0px auto;
+  margin-bottom: 32px;
 }
 #thankYou > div > aside {
   display: grid;
