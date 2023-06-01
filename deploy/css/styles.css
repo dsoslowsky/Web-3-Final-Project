@@ -632,6 +632,11 @@ footer > div {
     grid-template-columns: 50% auto;
   }
 }
+@media (min-width: 1024px) {
+  #reviews {
+    grid-template-columns: auto 1024 auto;
+  }
+}
 
 #checkout1 {
   display: grid;

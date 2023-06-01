@@ -61,4 +61,10 @@
         }
     }
 
+    @include lg{
+        grid-template-columns: auto 1024 auto;
+    }
+
+ 
+
 }
