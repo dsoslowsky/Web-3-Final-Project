@@ -595,14 +595,6 @@ footer > div {
 #reviews > div {
   grid-area: reviews;
 }
-#reviews > div aside form {
-  display: flex;
-  padding-bottom: 24px;
-}
-#reviews > div aside form button {
-  background-color: transparent;
-  border: none;
-}
 #reviews > div aside div {
   display: flex;
 }
@@ -611,6 +603,14 @@ footer > div {
 }
 #reviews > div aside div h1 {
   padding-right: 0px;
+}
+#reviews > div aside form {
+  display: flex;
+  padding-bottom: 24px;
+}
+#reviews > div aside form button {
+  background-color: transparent;
+  border: none;
 }
 #reviews > div > section ul li {
   background-color: var(--off-white);
@@ -632,9 +632,9 @@ footer > div {
     grid-template-columns: 50% auto;
   }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   #reviews {
-    grid-template-columns: auto 1024 auto;
+    grid-template-columns: auto 1200px auto;
   }
 }
 
