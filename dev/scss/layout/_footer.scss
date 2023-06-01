@@ -34,6 +34,9 @@ footer{
             justify-content: center;
             section{
                 padding: 24px;
+                ul{
+                    display: grid;
+                }
             }
         }
     }

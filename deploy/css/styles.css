@@ -439,6 +439,9 @@ footer > div section ul li {
   footer > div section {
     padding: 24px;
   }
+  footer > div section ul {
+    display: grid;
+  }
 }
 @media (min-width: 1200px) {
   footer {
