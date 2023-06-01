@@ -1,43 +1,69 @@
 #attachments{
     
     display: grid;
-    grid-template-columns: 16px auto 16px;
+    grid-template-columns: 32px auto 32px;
     grid-template-areas: ". attachments .";
 
     background-color: var(--dark-red);
     color: var(--off-white);
 
-    @include lg{
-        grid-template-columns: 60px auto 60px;
-    }
-
     >div{
         grid-area: attachments;
-
-        >section{
+        section{
             ul{
-                display: grid;
-                grid-template-columns: 25% 25% 25% 25%;
-                grid-template-areas: "a1 a2 a3 a4";
-        
-                .a1{
-                    grid-area: a1;
-                }
-        
-                .a2{
-                    grid-area: a2;
-                }
-        
-                .a3{
-                    grid-area: a3;
-                }
-        
-                .a4{
-                    grid-area: a4;
-                }
+                text-align: center;
 
-             }
+                li{  
+                    text-align: center; 
+                    aside{
+                        display: flex; 
+                        button{
+                            background-color: transparent;
+                            padding: 16px;
+                            margin: 0;
+                            border: 0px;
+                        }
+                    }    
+                }
+            }
         }
-
     }
+
+
+    @include md{
+
+        >div{
+
+            >section{
+                ul{
+                    display: grid;
+                    grid-template-columns: 25% 25% 25% 25%;
+                    grid-template-areas: "a1 a2 a3 a4";
+            
+                    .a1{
+                        grid-area: a1;
+                    }
+            
+                    .a2{
+                        grid-area: a2;
+                    }
+            
+                    .a3{
+                        grid-area: a3;
+                    }
+            
+                    .a4{
+                        grid-area: a4;
+                    }
+    
+                 }
+            }
+    
+        }
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
 }

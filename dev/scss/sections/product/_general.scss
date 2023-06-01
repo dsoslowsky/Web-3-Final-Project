@@ -6,11 +6,42 @@
     background-color: var(--dark-red);
     color: var(--off-white);
 
+
     >div{
         grid-area: general;
 
-       display: grid;
-       grid-template-columns: 50% auto; 
+        section{
+            img{
+                width: 100%;
+            }
+            a{
+                background-color: var(--purple);
+                color: var(--off-white);
+                padding: 8px 16px;
+                border-radius: 8px;
+            }
 
+            padding: 16px;
+        }
     }
+
+    @include md{
+       
+        >div{
+           display: grid;
+           grid-template-columns: 50% auto; 
+           section{
+            padding: 32px;
+           }
+        }
+    }
+
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1220px auto;
+        section{
+            padding: 64px;
+           }
+    }
+
 }

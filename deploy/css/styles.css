@@ -409,41 +409,86 @@ footer > div section {
 }
 #general > div {
   grid-area: general;
-  display: grid;
-  grid-template-columns: 50% auto;
+}
+#general > div section {
+  padding: 16px;
+}
+#general > div section img {
+  width: 100%;
+}
+#general > div section a {
+  background-color: var(--purple);
+  color: var(--off-white);
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  #general > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+  #general > div section {
+    padding: 32px;
+  }
+}
+@media (min-width: 1200px) {
+  #general {
+    display: grid;
+    grid-template-columns: auto 1220px auto;
+  }
+  #general section {
+    padding: 64px;
+  }
 }
 
 #attachments {
   display: grid;
-  grid-template-columns: 16px auto 16px;
+  grid-template-columns: 32px auto 32px;
   grid-template-areas: ". attachments .";
   background-color: var(--dark-red);
   color: var(--off-white);
 }
-@media (min-width: 1024px) {
-  #attachments {
-    grid-template-columns: 60px auto 60px;
-  }
-}
 #attachments > div {
   grid-area: attachments;
 }
-#attachments > div > section ul {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-areas: "a1 a2 a3 a4";
+#attachments > div section ul {
+  text-align: center;
 }
-#attachments > div > section ul .a1 {
-  grid-area: a1;
+#attachments > div section ul li {
+  text-align: center;
 }
-#attachments > div > section ul .a2 {
-  grid-area: a2;
+#attachments > div section ul li aside {
+  display: flex;
 }
-#attachments > div > section ul .a3 {
-  grid-area: a3;
+#attachments > div section ul li aside button {
+  background-color: transparent;
+  padding: 16px;
+  margin: 0;
+  border: 0px;
 }
-#attachments > div > section ul .a4 {
-  grid-area: a4;
+@media (min-width: 768px) {
+  #attachments > div > section ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "a1 a2 a3 a4";
+  }
+  #attachments > div > section ul .a1 {
+    grid-area: a1;
+  }
+  #attachments > div > section ul .a2 {
+    grid-area: a2;
+  }
+  #attachments > div > section ul .a3 {
+    grid-area: a3;
+  }
+  #attachments > div > section ul .a4 {
+    grid-area: a4;
+  }
+}
+@media (min-width: 1400px) {
+  #attachments {
+    grid-template-columns: auto 1440px auto;
+  }
 }
 
 #info {
