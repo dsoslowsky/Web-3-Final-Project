@@ -35,6 +35,12 @@
 
                         section{
                             display: flex;
+                            margin-left: auto;
+                        }
+                        form{
+                            input{
+                                width: 100%;
+                            }
                         }
                     }
                 }

@@ -19,7 +19,7 @@
             #content4{
                 background-color: var(--basic-red);
                 padding: 40px;
-    
+                
                 ul{
                     li{
                         aside{
@@ -28,9 +28,13 @@
                                 padding: 16px;
                             }
                         }
-
                         section{
                             display: flex;
+                        }
+                        form{
+                            input{
+                                width: 100%;
+                            }
                         }
                     }
                 }

@@ -681,13 +681,22 @@ footer > div section ul li {
 }
 #checkout1 > div > section #content1 {
   background-color: var(--basic-red);
-  padding: 40px;
+  padding: 48px;
+  border-radius: 24px;
 }
 #checkout1 > div > section #content1 ul li aside {
   display: flex;
 }
 #checkout1 > div > section #content1 ul li aside h2 {
   padding: 16px;
+  background-color: var(--off-white);
+  color: black;
+  border: 1px solid var(--mid-gray);
+}
+#checkout1 > div > section #content1 ul li aside button {
+  background-color: var(--purple);
+  border: 1px solid var(--mid-gray);
+  color: var(--off-white);
 }
 #checkout1 > div > section #content1 ul li section {
   display: flex;
@@ -743,9 +752,10 @@ footer > div section ul li {
 }
 #checkout2 > div > section #content2 ul li section {
   display: flex;
+  margin-left: auto;
 }
-#checkout2 > div > section #images2 {
-  padding: 24px;
+#checkout2 > div > section #content2 ul li form input {
+  width: 100%;
 }
 #checkout2 > div > section #images2 img {
   width: 100%;
@@ -795,6 +805,10 @@ footer > div section ul li {
 }
 #checkout3 > div > section #content3 ul li section {
   display: flex;
+  margin-left: auto;
+}
+#checkout3 > div > section #content3 ul li form input {
+  width: 100%;
 }
 #checkout3 > div > section #images3 {
   padding: 24px;
@@ -844,6 +858,9 @@ footer > div section ul li {
 }
 #checkout4 > div > section #content4 ul li section {
   display: flex;
+}
+#checkout4 > div > section #content4 ul li form input {
+  width: 100%;
 }
 #checkout4 > div > section #images4 {
   padding: 24px;
