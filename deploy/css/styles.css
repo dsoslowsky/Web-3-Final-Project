@@ -339,10 +339,18 @@ body img {
   display: block;
 }
 
-.purple-button {
+#purple-button {
   padding: 8px 16px;
   border-radius: 8px;
   background-color: var(--purple);
+  color: var(--off-white);
+}
+
+#white-button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid var(--off-white);
   color: var(--off-white);
 }
 
@@ -446,12 +454,6 @@ footer > div section ul li {
 #general > div section img {
   width: 100%;
 }
-#general > div section a {
-  background-color: var(--purple);
-  color: var(--off-white);
-  padding: 8px 16px;
-  border-radius: 8px;
-}
 @media (min-width: 768px) {
   #general > div {
     display: grid;
@@ -536,12 +538,6 @@ footer > div section ul li {
   width: 100%;
   border-bottom: 3px solid var(--mid-grey);
   padding-top: 32px;
-}
-#info > div section a {
-  background-color: var(--purple);
-  color: var(--off-white);
-  padding: 8px 16px;
-  border-radius: 8px;
 }
 @media (min-width: 1024px) {
   #info > div {
@@ -742,7 +738,8 @@ footer > div section ul li {
 }
 #checkout2 > div > section #content2 {
   background-color: var(--basic-red);
-  padding: 40px;
+  padding: 48px;
+  border-radius: 24px;
 }
 #checkout2 > div > section #content2 ul li aside {
   display: flex;
@@ -752,7 +749,12 @@ footer > div section ul li {
 }
 #checkout2 > div > section #content2 ul li section {
   display: flex;
-  margin-left: auto;
+}
+#checkout2 > div > section #content2 ul li section a {
+  background-color: var(--purple);
+  color: var(--off-white);
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 #checkout2 > div > section #content2 ul li form input {
   width: 100%;
@@ -795,7 +797,8 @@ footer > div section ul li {
 }
 #checkout3 > div > section #content3 {
   background-color: var(--basic-red);
-  padding: 40px;
+  padding: 48px;
+  border-radius: 24px;
 }
 #checkout3 > div > section #content3 ul li aside {
   display: flex;
@@ -805,7 +808,12 @@ footer > div section ul li {
 }
 #checkout3 > div > section #content3 ul li section {
   display: flex;
-  margin-left: auto;
+}
+#checkout3 > div > section #content3 ul li section a {
+  background-color: var(--purple);
+  color: var(--off-white);
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 #checkout3 > div > section #content3 ul li form input {
   width: 100%;
@@ -848,7 +856,8 @@ footer > div section ul li {
 }
 #checkout4 > div > section #content4 {
   background-color: var(--basic-red);
-  padding: 40px;
+  padding: 48px;
+  border-radius: 24px;
 }
 #checkout4 > div > section #content4 ul li aside {
   display: flex;
@@ -858,6 +867,12 @@ footer > div section ul li {
 }
 #checkout4 > div > section #content4 ul li section {
   display: flex;
+}
+#checkout4 > div > section #content4 ul li section a {
+  background-color: var(--purple);
+  color: var(--off-white);
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 #checkout4 > div > section #content4 ul li form input {
   width: 100%;
@@ -906,7 +921,8 @@ footer > div section ul li {
 }
 #thankYou > div > section #contentTY {
   background-color: var(--basic-red);
-  padding: 40px;
+  padding: 48px;
+  border-radius: 24px;
 }
 #thankYou > div > section #contentTY ul li aside {
   display: flex;

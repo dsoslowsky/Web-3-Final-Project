@@ -22,7 +22,8 @@
         >section{
             #content3{
                 background-color: var(--basic-red);
-                padding: 40px;
+                padding: 48px;
+                border-radius: 24px;
     
                 ul{
                     li{
@@ -35,7 +36,12 @@
 
                         section{
                             display: flex;
-                            margin-left: auto;
+                            a{
+                                background-color: var(--purple);
+                                color: var(--off-white);
+                                padding: 8px 16px;
+                                border-radius: 8px;
+                            }
                         }
                         form{
                             input{

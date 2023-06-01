@@ -16,11 +16,19 @@ body{
 
 }
 
-.purple-button{
-
+#purple-button{
             padding: 8px 16px;
             border-radius: 8px;
             background-color: var(--purple);
             color: var(--off-white);
-
 }
+
+
+#white-button{
+    padding: 8px 24px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid var(--off-white);
+    color: var(--off-white);
+}
+
