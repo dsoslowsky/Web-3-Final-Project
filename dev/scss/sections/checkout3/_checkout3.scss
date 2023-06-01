@@ -66,6 +66,41 @@
                 display: grid;
                 grid-template-columns: 50% auto;
 
+                #content3{
+                    ul{
+                          #f3a{
+                            display: flex;
+                            width: 100%;
+                            gap: 32px;
+                      
+                            >div{
+                                margin-right: auto;
+                                width: 100%;   
+                            }
+                          } 
+                          #f3b{
+                            display: flex;
+                            width: 100%;
+                            gap: 32px;
+                      
+                            >div{
+                                margin-right: auto;
+                                width: 100%;   
+                            }
+                          } 
+                          #f3c{
+                            display: flex;
+                            width: 100%;
+                            gap: 32px;
+                      
+                            >div{
+                                margin-right: auto;
+                                width: 100%;   
+                            }
+                          } 
+                    }
+                }
+
                 #images3{
                     padding: 96px;
                     img{

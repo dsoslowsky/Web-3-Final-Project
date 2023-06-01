@@ -780,6 +780,15 @@ footer > div section ul li {
     display: grid;
     grid-template-columns: 50% auto;
   }
+  #checkout2 > div > section #content2 ul #f2a {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout2 > div > section #content2 ul #f2a > div {
+    margin-right: auto;
+    width: 100%;
+  }
   #checkout2 > div > section #images2 {
     padding: 96px;
   }
@@ -840,6 +849,33 @@ footer > div section ul li {
     display: grid;
     grid-template-columns: 50% auto;
   }
+  #checkout3 > div > section #content3 ul #f3a {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout3 > div > section #content3 ul #f3a > div {
+    margin-right: auto;
+    width: 100%;
+  }
+  #checkout3 > div > section #content3 ul #f3b {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout3 > div > section #content3 ul #f3b > div {
+    margin-right: auto;
+    width: 100%;
+  }
+  #checkout3 > div > section #content3 ul #f3c {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout3 > div > section #content3 ul #f3c > div {
+    margin-right: auto;
+    width: 100%;
+  }
   #checkout3 > div > section #images3 {
     padding: 96px;
   }
@@ -894,6 +930,24 @@ footer > div section ul li {
   #checkout4 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #checkout4 > div > section #content4 ul #f4a {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout4 > div > section #content4 ul #f4a > div {
+    margin-right: auto;
+    width: 100%;
+  }
+  #checkout4 > div > section #content4 ul #f4b {
+    display: flex;
+    width: 100%;
+    gap: 32px;
+  }
+  #checkout4 > div > section #content4 ul #f4b > div {
+    margin-right: auto;
+    width: 100%;
   }
   #checkout4 > div > section #images4 {
     padding: 96px;
