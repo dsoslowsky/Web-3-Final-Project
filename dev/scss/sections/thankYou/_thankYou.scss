@@ -8,6 +8,8 @@
 
     >div{
         grid-area: thankYou;
+        max-width: 1400px; 
+        margin: 0px auto;  
 
         >aside{
             display: grid;
@@ -62,9 +64,5 @@
             }
         }
 
-        @include xl{
-            display: grid;
-            grid-template-columns: auto 1220px auto;
-        }
     }
 }

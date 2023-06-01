@@ -8,7 +8,9 @@
 
     >div{
 
-        grid-area: checkout4;
+        max-width: 1400px; 
+        margin: 0px auto;  
+        grid-area: checkout4;   
 
         >aside{
             display: grid;
@@ -67,9 +69,5 @@
             }
         }
 
-        @include xl{
-            display: grid;
-            grid-template-columns: auto 1220px auto;
-        }
     }
 }

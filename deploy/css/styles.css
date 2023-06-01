@@ -359,6 +359,7 @@ body img {
   background-color: var(--off-white);
   border: 2px solid var(--purple);
   border-radius: 2px;
+  color: var(--purple);
 }
 
 /* =============
@@ -703,6 +704,10 @@ footer > div section ul li {
 }
 #checkout1 > div > section #content1 ul li section {
   display: flex;
+  width: 100%;
+}
+#checkout1 > div > section #content1 ul li section #purple-button {
+  margin-left: auto;
 }
 #checkout1 > div > section #images1 {
   padding: 24px;
@@ -756,6 +761,10 @@ footer > div section ul li {
 }
 #checkout2 > div > section #content2 ul li section {
   display: flex;
+  width: 100%;
+}
+#checkout2 > div > section #content2 ul li section #purple-button {
+  margin-left: auto;
 }
 #checkout2 > div > section #content2 ul li form input {
   width: 100%;
@@ -809,6 +818,10 @@ footer > div section ul li {
 }
 #checkout3 > div > section #content3 ul li section {
   display: flex;
+  width: 100%;
+}
+#checkout3 > div > section #content3 ul li section #purple-button {
+  margin-left: auto;
 }
 #checkout3 > div > section #content3 ul li form input {
   width: 100%;
@@ -843,6 +856,8 @@ footer > div section ul li {
   color: var(--off-white);
 }
 #checkout4 > div {
+  max-width: 1400px;
+  margin: 0px auto;
   grid-area: checkout4;
 }
 #checkout4 > div > aside {
@@ -887,12 +902,6 @@ footer > div section ul li {
     width: 100%;
   }
 }
-@media (min-width: 1200px) {
-  #checkout4 > div {
-    display: grid;
-    grid-template-columns: auto 1220px auto;
-  }
-}
 
 #thankYou {
   display: grid;
@@ -903,6 +912,8 @@ footer > div section ul li {
 }
 #thankYou > div {
   grid-area: thankYou;
+  max-width: 1400px;
+  margin: 0px auto;
 }
 #thankYou > div > aside {
   display: grid;
@@ -941,11 +952,5 @@ footer > div section ul li {
   }
   #thankYou > div > section #imagesTY img {
     width: 100%;
-  }
-}
-@media (min-width: 1200px) {
-  #thankYou > div {
-    display: grid;
-    grid-template-columns: auto 1220px auto;
   }
 }

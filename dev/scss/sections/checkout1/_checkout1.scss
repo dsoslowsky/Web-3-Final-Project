@@ -46,8 +46,12 @@
                             }
                         }
                         section{
-                            display: flex;  
-                       
+                            display: flex; 
+                            width: 100%;
+                            
+                            #purple-button{
+                                margin-left: auto;
+                             }
                         }
 
                     }
