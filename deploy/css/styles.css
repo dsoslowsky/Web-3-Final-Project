@@ -360,10 +360,11 @@ body img {
   border: 2px solid var(--purple);
   border-radius: 8px;
   color: var(--purple);
-  height: 24px;
+  height: 26px;
 }
 #checkout-form ::placeholder {
   color: var(--purple);
+  padding: 8px;
 }
 
 /* =============
@@ -633,9 +634,6 @@ footer > div section ul li {
 #reviews > div aside div {
   display: flex;
 }
-#reviews > div aside div img {
-  width: 100%;
-}
 #reviews > div aside div h1 {
   padding-right: 0px;
 }
@@ -643,9 +641,16 @@ footer > div section ul li {
   display: flex;
   padding-bottom: 24px;
 }
+#reviews > div aside form input {
+  width: 100%;
+}
 #reviews > div aside form button {
   background-color: transparent;
   border: none;
+}
+#reviews > div > section {
+  border-top: 8px solid var(--basic-red);
+  padding: 16px;
 }
 #reviews > div > section ul li {
   background-color: var(--off-white);

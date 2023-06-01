@@ -39,9 +39,10 @@ body{
             border: 2px solid var(--purple);
             border-radius: 8px;
             color: var(--purple);
-            height: 24px;
+            height: 26px;
         }
         ::placeholder{
             color: var(--purple);
+            padding: 8px;
         }
 }

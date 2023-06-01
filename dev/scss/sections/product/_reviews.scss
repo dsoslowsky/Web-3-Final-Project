@@ -12,9 +12,6 @@
         aside{
             div{
                 display: flex;
-                img{
-                    width: 100%;
-                }
                 h1{
                     padding-right: 0px;
                 }
@@ -22,14 +19,24 @@
             form{
                 display: flex;
                 padding-bottom: 24px;
+                input{
+                    width: 100%;
+                }
+
                 button{
                     background-color: transparent;
                     border: none;
                 }
             }
+
+            
         }
 
         >section{
+
+            border-top: 8px solid var(--basic-red);
+            padding: 16px;
+
             ul{
                 li{
                     background-color: var(--off-white);
