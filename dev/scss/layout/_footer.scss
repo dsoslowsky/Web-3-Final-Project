@@ -12,13 +12,20 @@ footer{
 
     >div{
         grid-area: footer;
-
-        display: flex;
+        padding-top: 24px;
+        padding-bottom: 24px;
 
         section{
-   
+            ul{
+                display: flex;
+                justify-content: center;
+                li{
+                    padding: 8px;
+                }
+            }
         }
-
+   
     }
 
 }
+

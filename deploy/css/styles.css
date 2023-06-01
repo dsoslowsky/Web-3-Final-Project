@@ -404,8 +404,17 @@ footer {
 }
 footer > div {
   grid-area: footer;
-  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+footer > div section ul {
+  display: flex;
+  justify-content: center;
+}
+footer > div section ul li {
+  padding: 8px;
+}
+
 #general {
   display: grid;
   grid-template-columns: 16px auto 16px;
