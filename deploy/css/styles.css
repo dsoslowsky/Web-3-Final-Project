@@ -730,7 +730,7 @@ footer > div section ul li {
 }
 #features > div {
   grid-area: features;
-  padding: 30px 0px;
+  padding: 40px 0px;
   text-align: left;
 }
 #features > div ul li {
@@ -739,30 +739,40 @@ footer > div section ul li {
 #features > div ul li aside {
   display: flex;
   justify-content: center;
+  padding-bottom: 16px;
+}
+#features > div ul li h3 {
+  padding: 24px 0px;
+}
+#features > div ul li p {
+  font-size: 1rem;
 }
 @media (min-width: 768px) {
   #features {
     padding: 0px;
   }
-  #features ul {
+  #features > div {
+    padding-bottom: 24px;
+  }
+  #features > div ul {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-areas: "f1 f2 f3 f4";
   }
-  #features ul li {
+  #features > div ul li {
     text-align: left;
     padding: 32px;
   }
-  #features ul .f1 {
+  #features > div ul .f1 {
     grid-area: f1;
   }
-  #features ul .f2 {
+  #features > div ul .f2 {
     grid-area: f2;
   }
-  #features ul .f3 {
+  #features > div ul .f3 {
     grid-area: f3;
   }
-  #features ul .f4 {
+  #features > div ul .f4 {
     grid-area: f4;
   }
 }

@@ -9,7 +9,7 @@
 
     >div{
         grid-area: features;
-        padding: 30px 0px;
+        padding: 40px 0px;
         text-align: left;
         ul{
             li{
@@ -17,6 +17,13 @@
                 aside{
                     display: flex;
                     justify-content: center;
+                    padding-bottom: 16px;
+                }
+                h3{
+                    padding: 24px 0px;
+                }
+                p{
+                    font-size: rem-calc(16px);
                 }
             }
         }
@@ -24,6 +31,8 @@
 
     @include md{
         padding: 0px;
+        >div{
+            padding-bottom: 24px;
         ul{
                 display: grid;
                 grid-template-columns: 25% 25% 25% 25%;
@@ -50,6 +59,7 @@
                     grid-area: f4;
                 }
 
+        }
         }
     }
 
