@@ -1,5 +1,5 @@
-#attachments{
-    
+#attachments {
+
     display: grid;
     grid-template-columns: 32px auto 32px;
     grid-template-areas: ". attachments .";
@@ -7,65 +7,134 @@
     background-color: var(--dark-red);
     color: var(--off-white);
 
-    >div{
+    >div {
         grid-area: attachments;
-        >section{
-            ul{
-                li{  
-                    section{
-                        display: flex; 
+
+        >section {
+            ul {
+                li {
+                    section {
+                        display: flex;
                         justify-content: center;
                         padding: 8px;
                     }
-                    aside{
-                        display: flex; 
+
+                    aside {
+                        display: flex;
                         justify-content: center;
-                        button{
-                            background-color: transparent;
-                            padding: 16px;
-                            margin: 0;
-                            border: 0px;
+
+                        // label {
+                        //     padding: 14px 18px;
+                        // }
+
+                        /* The container */
+                        .container {
+                            display: block;
+                            position: relative;
+                            padding-left: 40px;
+                            margin: 16px 0px;
+                            cursor: pointer;
+                            font-size: 22px;
+                            -webkit-user-select: none;
+                            -moz-user-select: none;
+                            -ms-user-select: none;
+                            user-select: none;
                         }
-                    }    
+
+                        /* Hide the browser's default checkbox */
+                        .container input {
+                            position: absolute;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }
+
+                        /* Create a custom checkbox */
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 25px;
+                            width: 25px;
+                            background-color: purple;
+                        }
+
+                        /* On mouse-over, add a grey background color */
+                        .container:hover input~.checkmark {
+                            background-color: #ccc;
+                        }
+
+                        /* When the checkbox is checked, add a blue background */
+                        .container input:checked~.checkmark {
+                            background-color: #2196F3;
+                        }
+
+                        /* Create the checkmark/indicator (hidden when not checked) */
+                        .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }
+
+                        /* Show the checkmark when checked */
+                        .container input:checked~.checkmark:after {
+                            display: block;
+                        }
+
+                        /* Style the checkmark/indicator */
+                        .container .checkmark:after {
+                            left: 9px;
+                            top: 5px;
+                            width: 5px;
+                            height: 10px;
+                            border: solid white;
+                            border-width: 0 3px 3px 0;
+                            -webkit-transform: rotate(45deg);
+                            -ms-transform: rotate(45deg);
+                            transform: rotate(45deg);
+                        }
+
+                    }
                 }
             }
         }
     }
 
 
-    @include md{
+    @include md {
 
-        >div{
+        >div {
 
-            >section{
-                ul{
+            >section {
+                ul {
                     display: grid;
                     grid-template-columns: 25% 25% 25% 25%;
                     grid-template-areas: "a1 a2 a3 a4";
-            
-                    .a1{
+
+                    .a1 {
                         grid-area: a1;
                     }
-            
-                    .a2{
+
+                    .a2 {
                         grid-area: a2;
                     }
-            
-                    .a3{
+
+                    .a3 {
                         grid-area: a3;
                     }
-            
-                    .a4{
+
+                    .a4 {
                         grid-area: a4;
                     }
-    
-                 }
+
+                }
             }
-    
+
         }
     }
 
-    @include xxl{
+    @include xxl {
         grid-template-columns: auto 1440px auto;
     }
 
