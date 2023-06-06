@@ -1,38 +1,53 @@
-#info{
+#info {
         display: grid;
         grid-template-columns: 40px auto 40px;
         grid-template-areas: ". info .";
 
         background-color: var(--off-white);
         color: var(--dark-red);
-    
-        >div{
-            grid-area: info;
-            padding-top: 16px;
 
-            section{
-                img{
-                    width: 100%;
-                    border-bottom: 3px solid var(--mid-grey);
-                    padding-top: 32px;
+        >div {
+                grid-area: info;
+                padding-top: 48px;
+
+                section {
+                        img {
+                                width: 100%;
+                                border-bottom: 3px solid var(--mid-grey);
+                                padding-top: 32px;
+                        }
+
+                        h3 {
+                                padding-bottom: 16px;
+                        }
+
+                        p {
+                                font-size: rem-calc(16px);
+                                padding-bottom: 48px;
+                        }
                 }
-            }
-    
+
         }
 
-
-        @include lg{
+        @include md{
                 >div{
+                        padding-top: 32px;
+                }
+        }
+        @include lg{
+                >div {  
                         display: grid;
-                        grid-template-columns: 30% auto; 
+                        grid-template-columns: 30% auto;
+                        padding-top: 16px;
 
-                        h3{
+                        h3 {
                                 padding-top: 100px;
                         }
                 }
         }
-        @include xl{
-                grid-template-columns: auto 1300px auto;
-        }
-    
+
+        @include xxl {
+                grid-template-columns: auto 1400px auto;
+        } 
+
 }

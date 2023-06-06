@@ -686,25 +686,38 @@ footer > div section ul li {
 }
 #info > div {
   grid-area: info;
-  padding-top: 16px;
+  padding-top: 48px;
 }
 #info > div section img {
   width: 100%;
   border-bottom: 3px solid var(--mid-grey);
   padding-top: 32px;
 }
+#info > div section h3 {
+  padding-bottom: 16px;
+}
+#info > div section p {
+  font-size: 1rem;
+  padding-bottom: 48px;
+}
+@media (min-width: 768px) {
+  #info > div {
+    padding-top: 32px;
+  }
+}
 @media (min-width: 1024px) {
   #info > div {
     display: grid;
     grid-template-columns: 30% auto;
+    padding-top: 16px;
   }
   #info > div h3 {
     padding-top: 100px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   #info {
-    grid-template-columns: auto 1300px auto;
+    grid-template-columns: auto 1400px auto;
   }
 }
 
