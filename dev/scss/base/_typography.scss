@@ -1,3 +1,35 @@
 /* =============
     Typography
 ============= */
+
+body {
+    font-family: 'Fugaz One', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+#header-text {
+    font-family: 'Fugaz One';
+    font-weight: 400;
+    font-size: rem-calc(64px);
+}
+
+#label-text {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: rem-calc(24px);
+
+}
+
+#body-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: rem-calc(18px);
+    line-height: 30px;
+}

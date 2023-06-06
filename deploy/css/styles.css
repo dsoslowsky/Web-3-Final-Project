@@ -445,6 +445,37 @@ body img {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Fugaz One", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+#header-text {
+  font-family: "Fugaz One";
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+#label-text {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#body-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 30px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -545,6 +576,23 @@ footer > div section ul li {
 #general > div section img {
   width: 100%;
 }
+#general > div section h1 {
+  padding-bottom: 24px;
+}
+#general > div section h3 {
+  padding-bottom: 8px;
+}
+#general > div section h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  padding-bottom: 24px;
+}
+#general > div section p {
+  padding-bottom: 48px;
+}
 @media (min-width: 768px) {
   #general > div {
     display: grid;
@@ -561,6 +609,9 @@ footer > div section ul li {
   }
   #general section {
     padding: 64px;
+  }
+  #general section p {
+    padding-bottom: 64px;
   }
 }
 

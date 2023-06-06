@@ -15,6 +15,25 @@
                 width: 100%;
             }
 
+            h1{
+                padding-bottom: 24px;
+            }
+            h3{
+                padding-bottom: 8px;
+            }
+            h2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 100%;
+
+                padding-bottom: 24px;
+            }
+            p{
+                padding-bottom: 48px;
+            }
+
             padding: 16px;
         }
     }
@@ -25,7 +44,7 @@
            display: grid;
            grid-template-columns: 50% auto; 
            section{
-            padding: 32px;
+                padding: 32px;
            }
         }
     }
@@ -35,7 +54,10 @@
         grid-template-columns: auto 1220px auto;
         section{
             padding: 64px;
+            p{
+                padding-bottom: 64px;
            }
+        }
     }
 
 }
