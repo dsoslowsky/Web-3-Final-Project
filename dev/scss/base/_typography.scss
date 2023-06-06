@@ -30,6 +30,16 @@ p,h1,h2,h3,h4,h5,h6 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
-    font-size: rem-calc(18px);
+    font-size: rem-calc(16px);
     line-height: 30px;
+}
+
+#sub-body-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14.5px;
+    line-height: 100%;
+
+    padding-bottom: 16px;
 }

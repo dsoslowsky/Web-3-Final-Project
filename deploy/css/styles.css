@@ -475,8 +475,17 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 30px;
+}
+
+#sub-body-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14.5px;
+  line-height: 100%;
+  padding-bottom: 16px;
 }
 
 /* =============
@@ -744,9 +753,6 @@ footer > div section ul li {
 #features > div ul li h3 {
   padding: 24px 0px;
 }
-#features > div ul li p {
-  font-size: 1rem;
-}
 @media (min-width: 768px) {
   #features {
     padding: 0px;
@@ -791,6 +797,14 @@ footer > div section ul li {
 }
 #reviews > div {
   grid-area: reviews;
+  padding-top: 48px;
+  padding-bottom: 16px;
+}
+#reviews > div aside {
+  padding-bottom: 16px;
+}
+#reviews > div aside #header-text {
+  font-size: 2.5rem;
 }
 #reviews > div aside div {
   display: flex;
@@ -799,6 +813,7 @@ footer > div section ul li {
   align-content: right;
   justify-content: center;
   gap: 24px;
+  padding-bottom: 16px;
 }
 #reviews > div aside div img {
   display: block;
@@ -823,8 +838,17 @@ footer > div section ul li {
   background-color: var(--off-white);
   color: var(--basic-red);
   margin-bottom: 24px;
-  padding: 32px 24px;
+  padding: 32px 32px;
   border-radius: 40px;
+}
+#reviews > div > section ul li #sub-body-text {
+  text-align: center;
+}
+#reviews > div > section ul li img {
+  padding-bottom: 16px;
+}
+#reviews > div > section ul li p {
+  padding-bottom: 16px;
 }
 #reviews > div > section ul li button {
   background-color: var(--off-white);
@@ -834,12 +858,18 @@ footer > div section ul li {
   border-radius: 8px;
 }
 @media (min-width: 768px) {
+  #reviews > div {
+    padding-top: 32px;
+  }
   #reviews > div > aside {
     display: grid;
     grid-template-columns: 50% auto;
   }
   #reviews > div > aside div img {
     margin-top: -55px;
+  }
+  #reviews > div > section ul li #sub-body-text {
+    text-align: left;
   }
 }
 @media (min-width: 1024px) {
