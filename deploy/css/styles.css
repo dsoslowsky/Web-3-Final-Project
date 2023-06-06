@@ -339,6 +339,9 @@ body img {
   display: block;
 }
 
+/* =============
+    Buttons/Forms
+============= */
 #purple-button {
   padding: 8px 16px;
   border-radius: 8px;
@@ -375,7 +378,7 @@ body img {
   display: block;
   position: relative;
   padding-left: 25px;
-  margin: 15px 0px;
+  margin: -5px 0px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -464,7 +467,7 @@ p, h1, h2, h3, h4, h5, h6 {
 #label-text {
   font-family: "Poppins";
   font-style: italic;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5rem;
 }
 
@@ -624,6 +627,8 @@ footer > div section ul li {
 }
 #attachments > div {
   grid-area: attachments;
+  margin-top: -55px;
+  padding-bottom: 48px;
 }
 #attachments > div > section ul li section {
   display: flex;
@@ -633,9 +638,16 @@ footer > div section ul li {
 #attachments > div > section ul li aside {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
+  padding: 14px 0px;
+}
+#attachments > div > section ul li aside h3 {
+  font-size: 1rem;
 }
 @media (min-width: 768px) {
+  #attachments > div {
+    padding-bottom: 36px;
+  }
   #attachments > div > section ul {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -652,6 +664,11 @@ footer > div section ul li {
   }
   #attachments > div > section ul .a4 {
     grid-area: a4;
+  }
+}
+@media (min-width: 1024px) {
+  #attachments > div {
+    padding-bottom: 48px;
   }
 }
 @media (min-width: 1400px) {

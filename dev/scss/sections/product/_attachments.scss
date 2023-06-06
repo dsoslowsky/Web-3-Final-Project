@@ -10,6 +10,9 @@
     >div {
         grid-area: attachments;
 
+        margin-top: -55px;
+        padding-bottom: 48px;
+
         >section {
             ul {
                 li {
@@ -22,8 +25,12 @@
                     aside {
                         display: flex;
                         justify-content: center;
-                        gap: 8px;
+                        gap: 10px;
+                        padding: 14px 0px;
 
+                        h3{
+                            font-size: rem-calc(16px);
+                        }
                     }
                 }
             }
@@ -34,6 +41,7 @@
     @include md {
 
         >div {
+            padding-bottom: 36px;
 
             >section {
                 ul {
@@ -60,6 +68,12 @@
                 }
             }
 
+        }
+    }
+
+    @include lg{
+        >div{
+            padding-bottom: 48px;
         }
     }
 
