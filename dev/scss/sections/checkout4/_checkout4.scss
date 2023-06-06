@@ -29,6 +29,10 @@
                     #same-checkbox{
                         display: flex;
                         gap: 8px;
+
+                        .container {
+                            margin: 11px 0px;
+                        }
                     }
 
                     li{

@@ -368,6 +368,81 @@ body img {
 }
 
 /* =============
+    Checkboxes
+============= */
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin: 15px 0px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: var(--off-white);
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--purple);
+  color: var(--off-white);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 8px;
+  top: 2px;
+  width: 7px;
+  height: 13px;
+  border: solid var(--off-white);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* =============
     Typography
 ============= */
 /* =============
@@ -507,66 +582,7 @@ footer > div section ul li {
 #attachments > div > section ul li aside {
   display: flex;
   justify-content: center;
-  /* The container */
-  /* Hide the browser's default checkbox */
-  /* Create a custom checkbox */
-  /* On mouse-over, add a grey background color */
-  /* When the checkbox is checked, add a blue background */
-  /* Create the checkmark/indicator (hidden when not checked) */
-  /* Show the checkmark when checked */
-  /* Style the checkmark/indicator */
-}
-#attachments > div > section ul li aside .container {
-  display: block;
-  position: relative;
-  padding-left: 40px;
-  margin: 16px 0px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-#attachments > div > section ul li aside .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-#attachments > div > section ul li aside .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: purple;
-}
-#attachments > div > section ul li aside .container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-#attachments > div > section ul li aside .container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-#attachments > div > section ul li aside .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-#attachments > div > section ul li aside .container input:checked ~ .checkmark:after {
-  display: block;
-}
-#attachments > div > section ul li aside .container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  gap: 8px;
 }
 @media (min-width: 768px) {
   #attachments > div > section ul {
@@ -972,6 +988,9 @@ footer > div section ul li {
 #checkout4 > div > section #content4 ul #same-checkbox {
   display: flex;
   gap: 8px;
+}
+#checkout4 > div > section #content4 ul #same-checkbox .container {
+  margin: 11px 0px;
 }
 #checkout4 > div > section #content4 ul li aside {
   display: flex;
