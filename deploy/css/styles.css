@@ -703,9 +703,15 @@ footer > div section ul li {
 }
 #reviews > div aside div {
   display: flex;
+  margin-left: auto;
+  box-sizing: border-box;
+  align-content: right;
+  justify-content: center;
+  gap: 24px;
 }
-#reviews > div aside div h1 {
-  padding-right: 0px;
+#reviews > div aside div img {
+  display: block;
+  width: 60%;
 }
 #reviews > div aside form {
   display: flex;
@@ -740,6 +746,14 @@ footer > div section ul li {
   #reviews > div > aside {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #reviews > div > aside div img {
+    margin-top: -55px;
+  }
+}
+@media (min-width: 1024px) {
+  #reviews > div > aside div img {
+    margin-top: -42px;
   }
 }
 @media (min-width: 1200px) {
