@@ -347,6 +347,11 @@ body img {
   border-radius: 8px;
   background-color: var(--purple);
   color: var(--off-white);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
 }
 
 #white-button {
@@ -355,6 +360,11 @@ body img {
   background-color: transparent;
   border: 2px solid var(--off-white);
   color: var(--off-white);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
 }
 
 #checkout-form input {
@@ -364,10 +374,20 @@ body img {
   border-radius: 8px;
   color: var(--purple);
   height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
 }
 #checkout-form ::placeholder {
   color: var(--purple);
   padding: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
 }
 
 /* =============
