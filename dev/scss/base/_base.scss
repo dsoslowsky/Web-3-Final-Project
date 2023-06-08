@@ -28,7 +28,6 @@ body {
     border-radius: 8px;
     background-color: var(--purple);
     color: var(--off-white);
-
     text-align: center;
 
     font-family: 'Poppins';
@@ -37,7 +36,6 @@ body {
     font-size: rem-calc(16px);
     line-height: 30px; 
     
-
     &:hover{
         background-color: var(--off-white);
         color: var(--purple);
@@ -110,7 +108,7 @@ body {
         font-style: normal;
         font-weight: 300;
         font-size: rem-calc(16px);
-        line-height: 30px;        
+        line-height: 30px; 
     }
 }
 
