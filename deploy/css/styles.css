@@ -1109,6 +1109,12 @@ footer > div section ul li {
   padding: 48px;
   border-radius: 24px;
 }
+#checkout3 > div > section #content3 ul li {
+  padding-bottom: 24px;
+}
+#checkout3 > div > section #content3 ul li h1 {
+  font-size: 4rem;
+}
 #checkout3 > div > section #content3 ul li aside {
   display: flex;
 }
@@ -1121,12 +1127,18 @@ footer > div section ul li {
 }
 #checkout3 > div > section #content3 ul li section #purple-button {
   margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: -32px;
+}
+#checkout3 > div > section #content3 ul li section #white-button {
+  margin-top: 16px;
+  margin-bottom: -32px;
 }
 #checkout3 > div > section #content3 ul li form input {
   width: 100%;
 }
 #checkout3 > div > section #images3 {
-  padding: 24px;
+  padding-bottom: 40px;
 }
 #checkout3 > div > section #images3 img {
   width: 100%;
