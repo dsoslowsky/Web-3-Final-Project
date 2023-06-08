@@ -653,7 +653,7 @@ footer > div section ul li {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 2.25rem;
   line-height: 100%;
   padding-bottom: 24px;
 }
@@ -974,11 +974,26 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+  margin-bottom: 32px;
+}
+#checkout1 > div > section #content1 ul li {
+  padding-bottom: 24px;
+}
+#checkout1 > div > section #content1 ul li #label-text {
+  font-size: 1.25rem;
+}
+#checkout1 > div > section #content1 ul li h1 {
+  font-size: 4rem;
+}
+#checkout1 > div > section #content1 ul li h2 {
+  font-size: 2.25rem;
+  margin-top: 8px;
 }
 #checkout1 > div > section #content1 ul li aside {
   display: flex;
+  margin-top: 8px;
 }
-#checkout1 > div > section #content1 ul li aside h2 {
+#checkout1 > div > section #content1 ul li aside h3 {
   padding: 16px;
   background-color: var(--off-white);
   color: black;
@@ -995,6 +1010,12 @@ footer > div section ul li {
 }
 #checkout1 > div > section #content1 ul li section #purple-button {
   margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: -32px;
+}
+#checkout1 > div > section #content1 ul li section #white-button {
+  margin-top: 16px;
+  margin-bottom: -32px;
 }
 #checkout1 > div > section #images1 img {
   width: 100%;
@@ -1006,6 +1027,9 @@ footer > div section ul li {
   #checkout1 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #checkout1 > div > section #content1 {
+    margin-bottom: 8px;
   }
   #checkout1 > div > section #images1 {
     padding: 96px;
@@ -1039,6 +1063,7 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+  margin-bottom: 32px;
 }
 #checkout2 > div > section #content2 ul li {
   padding-bottom: 24px;
@@ -1078,6 +1103,9 @@ footer > div section ul li {
   #checkout2 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #checkout2 > div > section #content2 {
+    margin-bottom: 8px;
   }
   #checkout2 > div > section #content2 ul #f2a {
     display: flex;
@@ -1120,6 +1148,7 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+  margin-bottom: 32px;
 }
 #checkout3 > div > section #content3 ul li {
   padding-bottom: 24px;
@@ -1162,6 +1191,9 @@ footer > div section ul li {
   #checkout3 > div > section {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #checkout3 > div > section #content3 {
+    margin-bottom: 8px;
   }
   #checkout3 > div > section #content3 ul #f3a {
     display: flex;
