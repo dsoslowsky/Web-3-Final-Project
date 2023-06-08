@@ -343,7 +343,7 @@ body a {
 }
 
 /* =============
-    Buttons/Forms
+    Buttons
 ============= */
 #purple-button {
   padding: 8px 16px;
@@ -395,6 +395,9 @@ body a {
   box-shadow: inset 0px 0px 12px rgba(17, 19, 22, 0.3);
 }
 
+/* =============
+    Forms
+============= */
 #checkout-form input {
   width: 100%;
   background-color: var(--off-white);
@@ -728,6 +731,9 @@ footer > div section ul li {
   }
   #attachments > div > section ul .a4 {
     grid-area: a4;
+  }
+  #attachments > div > section ul li aside .container {
+    margin: 4px 0px;
   }
 }
 @media (min-width: 1024px) {

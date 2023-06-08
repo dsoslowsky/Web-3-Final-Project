@@ -65,6 +65,14 @@
                         grid-area: a4;
                     }
 
+                    li{
+                        aside{
+                            .container {
+                                margin: 4px 0px;
+                            }
+                        }
+                    }
+
                 }
             }
 
