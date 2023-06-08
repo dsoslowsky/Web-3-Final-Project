@@ -1355,15 +1355,10 @@ footer > div section ul li {
   background-color: var(--basic-red);
   padding: 48px;
   border-radius: 24px;
+  margin-bottom: 32px;
 }
-#thankYou > div > section #contentTY ul li aside {
-  display: flex;
-}
-#thankYou > div > section #contentTY ul li aside h2 {
-  padding: 16px;
-}
-#thankYou > div > section #contentTY ul li section {
-  display: flex;
+#thankYou > div > section #contentTY p {
+  margin: 24px 0px;
 }
 #thankYou > div > section #imagesTY {
   padding: 24px;
@@ -1378,6 +1373,9 @@ footer > div section ul li {
   #thankYou > div > section {
     display: grid;
     grid-template-columns: 50% auto;
+  }
+  #thankYou > div > section #contentTY {
+    margin-bottom: 8px;
   }
   #thankYou > div > section #imagesTY {
     padding: 96px;

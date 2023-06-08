@@ -26,20 +26,11 @@
                 background-color: var(--basic-red);
                 padding: 48px;
                 border-radius: 24px;
-    
-                ul{
-                    li{
-                        aside{
-                            display: flex;
-                            h2{
-                                padding: 16px;
-                            }
-                        }
 
-                        section{
-                            display: flex;
-                        }
-                    }
+                margin-bottom: 32px;
+                
+                p{
+                    margin: 24px 0px;
                 }
             }
 
@@ -59,6 +50,10 @@
             >section{
                 display: grid;
                 grid-template-columns: 50% auto;
+
+                #contentTY{
+                    margin-bottom: 8px;
+                }
 
                 #imagesTY{
                     padding: 96px;
