@@ -967,6 +967,9 @@ footer > div section ul li {
   display: flex;
   justify-content: center;
 }
+#checkout1 > div > aside #header-text {
+  padding: 24px;
+}
 #checkout1 > div > section #content1 {
   background-color: var(--basic-red);
   padding: 48px;
@@ -1028,6 +1031,9 @@ footer > div section ul li {
 #checkout2 > div > aside {
   display: flex;
   justify-content: center;
+}
+#checkout2 > div > aside #header-text {
+  padding: 24px;
 }
 #checkout2 > div > section #content2 {
   background-color: var(--basic-red);
@@ -1094,6 +1100,9 @@ footer > div section ul li {
 #checkout3 > div > aside {
   display: flex;
   justify-content: center;
+}
+#checkout3 > div > aside #header-text {
+  padding: 24px;
 }
 #checkout3 > div > section #content3 {
   background-color: var(--basic-red);
@@ -1181,6 +1190,9 @@ footer > div section ul li {
   display: grid;
   text-align: center;
 }
+#checkout4 > div > aside #header-text {
+  padding: 24px;
+}
 #checkout4 > div > section #content4 {
   background-color: var(--basic-red);
   padding: 48px;
@@ -1190,9 +1202,16 @@ footer > div section ul li {
 #checkout4 > div > section #content4 ul #same-checkbox {
   display: flex;
   gap: 8px;
+  text-align: center;
 }
 #checkout4 > div > section #content4 ul #same-checkbox .container {
-  margin: 11px 0px;
+  margin: 1px 0px;
+}
+#checkout4 > div > section #content4 ul li {
+  padding-bottom: 24px;
+}
+#checkout4 > div > section #content4 ul li h1 {
+  font-size: 4rem;
 }
 #checkout4 > div > section #content4 ul li aside {
   display: flex;
@@ -1206,11 +1225,16 @@ footer > div section ul li {
 #checkout4 > div > section #content4 ul li form input {
   width: 100%;
 }
+#checkout4 > div > section #content4 ul li #white-button {
+  margin-top: 16px;
+  margin-bottom: -32px;
+}
 #checkout4 > div > section #images4 {
-  padding: 24px;
+  padding-bottom: 40px;
 }
 #checkout4 > div > section #images4 img {
   width: 100%;
+  padding-bottom: 40px;
 }
 #checkout4 > div > section #images4 aside {
   text-align: center;
@@ -1218,6 +1242,7 @@ footer > div section ul li {
 #checkout4 > div > section #images4 #purple-button {
   display: flex;
   justify-content: center;
+  margin-top: 16px;
 }
 @media (min-width: 1024px) {
   #checkout4 > div > section {
@@ -1266,6 +1291,9 @@ footer > div section ul li {
 #thankYou > div > aside {
   display: grid;
   text-align: center;
+}
+#thankYou > div > aside #header-text {
+  padding: 24px;
 }
 #thankYou > div > section #contentTY {
   background-color: var(--basic-red);
