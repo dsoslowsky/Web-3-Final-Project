@@ -740,6 +740,9 @@ footer > div section ul li {
   #attachments > div {
     padding-bottom: 48px;
   }
+  #attachments > div > section ul li aside .container {
+    margin: -5px 0px;
+  }
 }
 @media (min-width: 1400px) {
   #attachments {
