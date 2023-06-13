@@ -542,6 +542,136 @@ p, h1, h2, h3, h4, h5, h6 {
 /* =============
     Buttons
 ============= */
+button {
+  padding: 0;
+  margin: 0;
+}
+
+#purple-button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: var(--purple);
+  color: var(--off-white);
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+}
+#purple-button:hover {
+  background-color: var(--off-white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+}
+#purple-button:active {
+  background-color: var(--off-white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  box-shadow: inset 0px 0px 12px rgba(17, 19, 22, 0.3);
+}
+
+#white-button {
+  padding: 8px 24px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid var(--off-white);
+  color: var(--off-white);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+}
+#white-button:hover {
+  background-color: var(--off-white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+}
+#white-button:active {
+  background-color: var(--off-white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  box-shadow: inset 0px 0px 12px rgba(17, 19, 22, 0.3);
+}
+
+/* =============
+    Checkboxes
+============= */
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin: -5px 0px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: var(--off-white);
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--purple);
+  color: var(--off-white);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 8px;
+  top: 2px;
+  width: 7px;
+  height: 13px;
+  border: solid var(--off-white);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 /* =============
     Forms
 ============= */
@@ -561,25 +691,88 @@ textarea {
 }
 
 /* =============
+    Forms
+============= */
+#checkout-form input {
+  width: 100%;
+  background-color: var(--off-white);
+  border: 2px solid var(--purple);
+  border-radius: 8px;
+  color: var(--purple);
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+}
+#checkout-form ::placeholder {
+  color: var(--purple);
+  padding: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+/* =============
     Navigation
 ============= */
+.show-menu {
+  display: block !important;
+}
+
+nav {
+  display: none;
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: block;
+  }
+}
 nav ul li {
+  text-align: right;
+}
+nav ul li a:link, nav ul li a:visited {
+  display: inline-block;
   color: var(--off-white);
+  padding: 16px 0px 16px;
 }
 
 /* =============
     Header
 ============= */
 #header {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
   background-color: var(--basic-red);
   color: var(--off-white);
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 100;
+  box-shadow: 0px 1px 1px rbga(42, 48, 54, 0.3);
 }
-#header > div {
-  grid-area: header;
+#header #logo {
+  grid-area: logo;
   display: flex;
+  align-items: center;
+}
+#header #burger-container {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#header #burger-container button {
+  border: none;
+  background-color: transparent;
+}
+#header nav {
+  grid-area: nav;
 }
 
 /* =============
@@ -886,9 +1079,7 @@ footer > div section ul li {
 #reviews > div aside form {
   display: flex;
   padding-bottom: 24px;
-}
-#reviews > div aside form input {
-  width: 100%;
+  padding-right: 16px;
 }
 #reviews > div aside form button {
   background-color: transparent;

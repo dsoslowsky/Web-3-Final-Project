@@ -477,7 +477,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 2,
       "sC" : 3,

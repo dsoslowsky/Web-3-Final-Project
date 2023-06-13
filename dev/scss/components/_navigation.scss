@@ -2,10 +2,29 @@
     Navigation
 ============= */
 
+.show-menu{
+    display: block !important;
+}
+
 nav{
+    display: none;
+
     ul{
+
+        @include lg{
+            display: block;
+        }
+
         li{
-            color: var(--off-white);
+            text-align: right;
+            a:link, a:visited{
+
+                display: inline-block;
+                color: var(--off-white);
+                padding: 16px 0px 16px;
+
+
+            }
         }
     }
 }

@@ -16,3 +16,36 @@ input[type=password],
 textarea {
     -webkit-appearance: none;
 }
+
+
+/* =============
+    Forms
+============= */
+
+#checkout-form {
+    input {
+        width: 100%;
+        background-color: var(--off-white);
+        border: 2px solid var(--purple);
+        border-radius: 8px;
+        color: var(--purple);
+        height: 26px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: rem-calc(16px);
+        line-height: 30px;
+    }
+
+    ::placeholder {
+        color: var(--purple);
+        padding: 8px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 300;
+        font-size: rem-calc(16px);
+        line-height: 30px; 
+    }
+}
