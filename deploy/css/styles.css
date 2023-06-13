@@ -577,12 +577,24 @@ nav {
   display: none;
 }
 @media (min-width: 1024px) {
-  nav ul {
+  nav {
     display: block;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 nav ul li {
   text-align: right;
+}
+@media (min-width: 1024px) {
+  nav ul li {
+    margin-left: 32px;
+  }
 }
 nav ul li a:link, nav ul li a:visited {
   display: inline-block;
@@ -606,6 +618,11 @@ nav ul li a:link, nav ul li a:visited {
   z-index: 100;
   box-shadow: 0px 1px 1px rbga(42, 48, 54, 0.3);
 }
+@media (min-width: 1024px) {
+  #header {
+    grid-template-areas: "logo nav";
+  }
+}
 #header #logo {
   grid-area: logo;
   display: flex;
@@ -616,6 +633,11 @@ nav ul li a:link, nav ul li a:visited {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  #header #burger-container {
+    display: none;
+  }
 }
 #header #burger-container button {
   border: none;
@@ -681,6 +703,11 @@ footer > div section ul li {
   color: var(--off-white);
   padding-top: 80px;
 }
+@media (min-width: 1024px) {
+  #general {
+    padding-top: 100px;
+  }
+}
 #general > div {
   grid-area: general;
 }
@@ -736,6 +763,11 @@ footer > div section ul li {
   grid-template-areas: ". attachments .";
   background-color: var(--dark-red);
   color: var(--off-white);
+}
+@media (min-width: 1024px) {
+  #attachments {
+    scroll-margin-top: 220px;
+  }
 }
 #attachments > div {
   grid-area: attachments;
@@ -907,6 +939,11 @@ footer > div section ul li {
   background-color: var(--dark-red);
   color: var(--off-white);
 }
+@media (min-width: 1024px) {
+  #reviews {
+    scroll-margin-top: 100px;
+  }
+}
 #reviews > div {
   grid-area: reviews;
   padding-top: 48px;
@@ -1013,6 +1050,11 @@ footer > div section ul li {
   color: var(--off-white);
   padding-top: 80px;
 }
+@media (min-width: 1024px) {
+  #checkout1 {
+    padding-top: 100px;
+  }
+}
 #checkout1 > div {
   max-width: 1400px;
   margin: 0px auto;
@@ -1103,6 +1145,11 @@ footer > div section ul li {
   color: var(--off-white);
   padding-top: 80px;
 }
+@media (min-width: 1024px) {
+  #checkout2 {
+    padding-top: 100px;
+  }
+}
 #checkout2 > div {
   max-width: 1400px;
   margin: 0px auto;
@@ -1188,6 +1235,11 @@ footer > div section ul li {
   background-color: var(--dark-red);
   color: var(--off-white);
   padding-top: 80px;
+}
+@media (min-width: 1024px) {
+  #checkout3 {
+    padding-top: 100px;
+  }
 }
 #checkout3 > div {
   max-width: 1400px;
@@ -1296,6 +1348,11 @@ footer > div section ul li {
   color: var(--off-white);
   padding-top: 80px;
 }
+@media (min-width: 1024px) {
+  #checkout4 {
+    padding-top: 100px;
+  }
+}
 #checkout4 > div {
   max-width: 1400px;
   margin: 0px auto;
@@ -1397,6 +1454,11 @@ footer > div section ul li {
   background-color: var(--dark-red);
   color: var(--off-white);
   padding-top: 80px;
+}
+@media (min-width: 1024px) {
+  #thankYou {
+    padding-top: 100px;
+  }
 }
 #thankYou > div {
   grid-area: thankYou;

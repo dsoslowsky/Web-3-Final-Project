@@ -9,6 +9,10 @@
 
     padding-top: 80px;
 
+    @include lg{
+        padding-top: 100px;
+    }
+
 
     >div{
         grid-area: general;

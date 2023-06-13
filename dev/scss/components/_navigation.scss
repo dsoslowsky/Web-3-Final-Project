@@ -14,20 +14,30 @@ html{
 nav{
     display: none;
 
+    @include lg{
+        display: block;
+    }
+
     ul{
 
         @include lg{
-            display: block;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
         }
 
         li{
             text-align: right;
+
+            @include lg{
+                margin-left: 32px;
+            }
+
             a:link, a:visited{
 
                 display: inline-block;
                 color: var(--off-white);
                 padding: 16px 0px 16px;
-
 
             }
         }

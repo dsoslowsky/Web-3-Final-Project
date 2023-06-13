@@ -2,6 +2,9 @@
 
                 //this is the offset magic
                 scroll-margin-top: 62px;
+                @include lg{
+                    scroll-margin-top: 100px;
+                }
                 //
 
 

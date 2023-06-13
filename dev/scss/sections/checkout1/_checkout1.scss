@@ -7,6 +7,9 @@
     color: var(--off-white);
 
     padding-top: 80px;
+    @include lg{
+        padding-top: 100px;
+    }
 
     >div{
 
