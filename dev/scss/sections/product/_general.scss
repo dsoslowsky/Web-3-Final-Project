@@ -1,12 +1,13 @@
 #general{
 
-
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". general .";
 
     background-color: var(--dark-red);
     color: var(--off-white);
+
+    padding-top: 80px;
 
 
     >div{

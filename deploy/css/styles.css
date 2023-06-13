@@ -679,6 +679,7 @@ footer > div section ul li {
   grid-template-areas: ". general .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #general > div {
   grid-area: general;
@@ -1010,6 +1011,7 @@ footer > div section ul li {
   grid-template-areas: ". checkout1 .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #checkout1 > div {
   max-width: 1400px;
@@ -1099,6 +1101,7 @@ footer > div section ul li {
   grid-template-areas: ". checkout2 .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #checkout2 > div {
   max-width: 1400px;
@@ -1184,6 +1187,7 @@ footer > div section ul li {
   grid-template-areas: ". checkout3 .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #checkout3 > div {
   max-width: 1400px;
@@ -1290,6 +1294,7 @@ footer > div section ul li {
   grid-template-areas: ". checkout4 .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #checkout4 > div {
   max-width: 1400px;
@@ -1391,6 +1396,7 @@ footer > div section ul li {
   grid-template-areas: ". thankYou .";
   background-color: var(--dark-red);
   color: var(--off-white);
+  padding-top: 80px;
 }
 #thankYou > div {
   grid-area: thankYou;
