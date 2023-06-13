@@ -1,5 +1,10 @@
 #attachments {
 
+    //this is the offset magic
+    scroll-margin-top: 165px;
+    //
+
+
     display: grid;
     grid-template-columns: 32px auto 32px;
     grid-template-areas: ". attachments .";

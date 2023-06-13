@@ -1,4 +1,11 @@
 #info {
+
+
+        //this is the offset magic
+    scroll-margin-top: 64px;
+    //
+
+
         display: grid;
         grid-template-columns: 40px auto 40px;
         grid-template-areas: ". info .";
