@@ -55,18 +55,24 @@
                         aside{     
                             display: flex;
                             margin-top: 8px;
+                            align-items: center;
                        
                             h3{
-                                padding: 16px;
+                                padding: 2px 16px;
                                 background-color: var(--off-white);
                                 color: black;
-                                border: 1px solid var(--mid-gray);
+                                border: 2px solid var(--mid-gray);
                             }
                             button{
-                                background-color: var(--purple);
-                                border: 1px solid var(--mid-gray);
-                                color: var(--off-white);
+                                background-color: transparent;
+                                border: transparent;
+                             
                                 
+
+                            }
+
+                            #header-text{
+                                font-size: rem-calc(35);
                             }
 
                             
