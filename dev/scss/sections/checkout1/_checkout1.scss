@@ -1,4 +1,4 @@
-#checkout1{
+#checkout1 {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". checkout1 .";
@@ -7,88 +7,94 @@
     color: var(--off-white);
 
     padding-top: 80px;
-    @include lg{
+
+    @include lg {
         padding-top: 100px;
     }
 
-    >div{
+    >div {
 
-        max-width: 1400px; 
-        margin: 0px auto;       
+        max-width: 1400px;
+        margin: 0px auto;
         grid-area: checkout1;
 
         margin-bottom: 32px;
 
-        >aside{
+        >aside {
             display: flex;
             justify-content: center;
-            #header-text{
+
+            #header-text {
                 padding: 24px;
             }
         }
 
-        >section{
-         
-            #content1{
+        >section {
+
+            #content1 {
                 background-color: var(--basic-red);
                 padding: 48px;
                 border-radius: 24px;
 
                 margin-bottom: 32px;
-              
-                ul{
-                    li{
+
+                ul {
+                    li {
                         padding-bottom: 24px;
 
-                        #label-text{
+                        #label-text {
                             font-size: rem-calc(20);
                         }
 
-                        h1{
+                        h1 {
                             font-size: rem-calc(64);
                         }
-                        h2{
+
+                        h2 {
                             font-size: rem-calc(36);
                             margin-top: 8px;
                         }
 
-                        aside{     
+                        aside {
                             display: flex;
                             margin-top: 8px;
                             align-items: center;
-                       
-                            h3{
+
+                            h3 {
                                 padding: 2px 16px;
                                 background-color: var(--off-white);
                                 color: black;
                                 border: 2px solid var(--mid-gray);
-              
+
                             }
-                            button{
+
+                            button {
                                 background-color: transparent;
                                 border: transparent;
                                 border-radius: 8px;
-                             
-                                
+
+
 
                             }
 
-                            #header-text{
+                            #header-text {
                                 font-size: rem-calc(35);
                             }
 
-                            
+
                         }
-                        section{
-                            display: flex; 
+
+                        section {
+                            display: flex;
                             width: 100%;
-                            
-                            #purple-button{
+
+                            #purple-button {
                                 margin-left: auto;
                                 margin-top: 16px;
                                 margin-bottom: -32px;
-                             }
-                             #white-button{
+                            }
+
+                            #white-button {
                                 margin-top: 16px;
                                 margin-bottom: -32px;
                             }
@@ -98,26 +104,28 @@
                 }
             }
 
-            #images1{
-                img{
-                width: 100%;
+            #images1 {
+                img {
+                    width: 100%;
                 }
             }
         }
 
-        @include lg{
+        @include lg {
             grid-template-columns: auto 1200 auto;
-            >section{
+
+            >section {
                 display: grid;
                 grid-template-columns: 50% auto;
 
-                #content1{
-                    margin-bottom:8px;
+                #content1 {
+                    margin-bottom: 8px;
                 }
 
-                #images1{
+                #images1 {
                     padding: 96px;
-                    img{
+
+                    img {
                         width: 100%;
                     }
                 }
