@@ -1101,6 +1101,7 @@ footer > div section ul li {
 #checkout1 > div > section #content1 ul li aside button {
   background-color: transparent;
   border: transparent;
+  border-radius: 8px;
 }
 #checkout1 > div > section #content1 ul li aside #header-text {
   font-size: 2.1875rem;
